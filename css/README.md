@@ -1,0 +1,42 @@
+# Part 2: CSS
+
+This is the second of two exercises, which build off of each other. You'll get comfortable with using CSS selectors and rules to dictate display, while keeping your styles separate from your content.
+
+### Prerequisites
+* You've completed [Part 1: HTML](https://github.com/LaunchCodeEducation/html-me-something/tree/gh-pages/html)
+* Familiarity with the basics of CSS: where styles can go, basic syntax, and a few rules
+* You know how to use your browser's developer tools
+
+### Tasks
+
+1. Working in the same file as the previous exercise, style your document. Create a file named `styles.css` in your submission directory (`html-me-something/submissions/<username>/`)
+2. (Optional) Add a normalization stylesheet (see the Resources section below; either of those will work). You can either put these normalization rules at the top of your `styles.css` or you can add another file in the same directory and link it in to your HTML doc. This will "reset" some of your browser's built-in (and often unsightly) styles so that you are starting with a cleaner slate when you add your own styles.
+2. Start adding styles in your `styles.css` file, being sure to link the stylesheet to your main document. Check out our [styled example](http://education.launchcode.org/html-me-something/submissions/chrisbay/index-nocss.html). Use "View Source", or inspect the example page with your browser's developer tools to learn how we did things. And be sure to use the References section below as you go. Here are some specific tasks you should complete:
+    * Use margin and padding to space your elements nicely.
+    * Use at least one of each of the following types of selectors: element, class, id. Also utilize compound selectors
+    * Don't break these rules:
+    	* Use document-level and inline styles sparingly, and only when absolutely necessary
+    	* At all costs, avoid adding HTML elements in order to achieve a specific visual effect
+    * As before, be creative! Make your page look great, and don't settle for checking off the items above. Have a look at [CSS Zen Garden](http://www.csszengarden.com) for inspiration.
+3. Commit your code to your fork and push (commands are below). Then, go back to the [main page](https://github.com/LaunchCodeEducation/html-me-something) and follow the submission instructions.
+    ```
+    $ $ git add .
+    $ git commit -m "Added some killer CSS styling to my page"
+    $ git push origin gh-pages
+    ```
+
+### Resources
+#### General CSS
+* [w3schools CSS Reference](http://www.w3schools.com/css/default.asp)
+* [w3schools CSS3 Reference](http://www.w3schools.com/css/css3_intro.asp)
+* [CSS Zen Garden](http://www.csszengarden.com)
+* [Specifics on CSS Specificity](https://css-tricks.com/specifics-on-css-specificity/)
+* [Specificity (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity)
+
+#### Browser Support
+* [Can I Use?](http://caniuse.com)
+* [HTML5 and CSS3 Readiness](http://html5readiness.com)
+
+#### CSS Normalization
+* [Eric Meyer's reset.css](http://meyerweb.com/eric/tools/css/reset/)
+* [normalize.css](http://necolas.github.io/normalize.css/)
