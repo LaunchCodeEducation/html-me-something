@@ -53,7 +53,7 @@ Your branch is up-to-date with 'origin/master'.
 nothing to commit, working directory clean
 ```
 
-If you don't, make sure you're in the correct directory (use `pwd`), retrace your steps through the instructions above.
+If you don't, make sure you're in the correct directory (use `pwd`), and then retrace your steps through the instructions above.
 
 A few more steps and we'll be ready to go:
 
@@ -62,21 +62,21 @@ A few more steps and we'll be ready to go:
 $ cd submissions/
 $ mkdir [USERNAME]
 ```
-* Jump down into this new directory, and create and open a new file, `index.html`. Add a single line with the following HTML and save: `<p>YOUR NAME</p>`
-* In Terminal, from the project root folder (you'll need to run `cd ../..` to get there) run `git add .` to stage your new file. Then commit and push it to your fork.
-```
-$ git commit -m "Adding my submission"
-[gh-pages 4875550] Adding my submission
- 1 file changed, 1 insertions(+)
- create mode 100644 submissions/chrisbay/index.html
-$ git push origin gh-pages
-```
-When pushing, note that we push to the `gh-pages` branch of the project, not the `master` branch (as you'll often be, and will see most often in documentation).
-* You should be able to view your page live at **http://&lt;username&gt;.github.io/html-me-something/submissions/&lt;username&gt;/**. This may take a few minutes to go live, so if you don't see it right away, try again in a few minutes. This is the magic of [GitHub Pages](https://pages.github.com)
+* Create and save a new file, `index.html`, within your username directory. Add a single line with the following HTML and save: `<p>YOUR NAME</p>`
+* In Terminal, from the project root folder (you'll need to run `cd ..` to get there) run `git status` and then, if all looks good, run `git add .` to stage your new file. Then commit and push it to your GitHub repo.
+    ```
+    $ git commit -m "Adding my submission"
+    [gh-pages 4875550] Adding my submission
+     1 file changed, 1 insertions(+)
+     create mode 100644 submissions/chrisbay/index.html
+    $ git push origin gh-pages
+    ```
+    When pushing, note that we push to the `gh-pages` branch of the project, not the `master` branch (as you'll often be, and will often see in documentation).
+* You should be able to view your page live at **http://[USERNAME].github.io/html-me-something/submissions/[USERNAME]/** (replace [USERNAME] with your GitHub username). This may take a few minutes to go live, so if you don't see it right away, try again in a few minutes. That simply putting your code in a repository on GitHub with a couple of special settings (which we took care of for you) results in a live website is the magic of [GitHub Pages](https://pages.github.com). Normally, a lot more work is needed to put a page on the internet.
 
 ## Getting to work
 
-Now it's time to build a page! Dive in, then come back here to follow submission instructions.
+Now it's time to build out your page! Dive in, then come back here to follow submission instructions.
 
 [Part 1: HTML](https://github.com/LaunchCodeEducation/html-me-something/tree/gh-pages/html)
 
