@@ -88,7 +88,7 @@ Now it's time to build out your page! Dive in, then come back here to follow sub
 
 Now that you've created a lovely page, let's request that it be added to the main project repository, so course staff can add it to the class submissions directory.
 
-Visit your project pages on GitHub. Since this project is a fork of the class repository, you will see the option to create to create a new pull request near the top. Hit the button!
+Visit your project page on GitHub. Since this project is a fork of the class repository, you will see the option to create a new pull request near the top. Hit the button!
 
 ![New pull request](images/new-pull-request.png)
 
@@ -96,7 +96,7 @@ On the next page, you'll see a bunch of info about the changes between your proj
 
 ![Create pull request](images/create-pull-request.png)
 
-What's going on here? To put it briefly, you're asking the owners of the main project repository that you forked/copied (i.e. LaunchCode staff) to incorporate a set of your changes. The owners will review your changes, and if everything looks good, they will merge them into the main repository. If you make additional changes to your project after submitting the pull request, those will *not* be incorporated into the main project. You would need to create an additional pull request to do that.
+What's going on here? To put it briefly, you're asking the owners of the main project repository which you forked/copied (i.e. LaunchCode staff) to incorporate a set of your changes into their repository. The owners will review your changes, and if everything looks good, they will merge them into the main repository. If you make additional changes to your project after submitting the pull request, those will *not* be incorporated into the main project. You would need to create an additional pull request to do that.
 
 This pattern of development -- fork, clone, modify, commit, push, pull request -- is one of the main ways that coders collaborate on GitHub, particularly on open source projects.
 
