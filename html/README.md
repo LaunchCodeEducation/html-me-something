@@ -22,12 +22,12 @@ This is the first of two exercises, which build off of each other. You'll get co
 3. Don't add any CSS yet. Really, we mean it! If you think your page looks boring now, that's okay. We'll get there soon enough.
 4. As you go, you'll want to view your page on your computer. You can do this by selecting *File > Open File* in your browser, and navigating to the location of your new HTML file.
 5. When you're done, `git add` new files, then commit and push all changes to your repository (include a useful message with your commit). From your project root directory:
-```
-$ git add .
-$ git commit -m "Finished work on HTML page"
-$ git push origin gh-pages
-```
-6. View your page on your GitHub Pages site. This will be at a URL of the form **https://[USERNAME].github.io/html-me-something/[USERNAME]/**
+	```
+	$ git add .
+	$ git commit -m "Finished work on HTML page"
+	$ git push origin gh-pages
+	```
+6. View your page on your GitHub Pages site. This will be at a URL of the form **https://[USERNAME].github.io/html-me-something/submissions/[USERNAME]/**
 7. Well done! Time to [dive into some CSS](https://github.com/LaunchCodeEducation/html-me-something/tree/gh-pages/css)!
 
 ### Tips
