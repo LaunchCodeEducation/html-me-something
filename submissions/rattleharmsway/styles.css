@@ -2,14 +2,14 @@ body {
 	width: 100%;
 	max-width: 1024px;
 	margin: 0 auto;
-	background-color: #999;
+	background-color: blue;
 	font-size: 62.5%;
 }
 
 header,
 main,
 footer {
-	background-color: #ddd;
+	background-color: gray;
 	font-size: 1.6em;
 }
 
