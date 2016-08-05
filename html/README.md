@@ -9,7 +9,7 @@ This is the first of two exercises, which build off of each other. You'll get co
 ### Tasks
 
 1. Stub out `submissions/<username>/index.html` it out with these basic elements: the HTML5 doctype, `<html>`, `<head>`, `<title>`, and `<body>`, with appropriate content. You can start by removing the snippet of HTML that you added during setup.
-2. Build a page that...
+1. Build a page that...
 	* Tells a story. This can be personal, or not. Funny, serious or neither. You can do whatever you like, but generally, it should be something in the range of 3-10 paragraphs or sections. [Here is an example](http://education.launchcode.org/html-me-something/submissions/chrisbay/index-nocss.html), and here are some other ideas:
 		- Create a resume page that tells the story of your professional journey to-date, and where you want to go as a coder
 		- Tell the story of a trip that you took
@@ -19,16 +19,17 @@ This is the first of two exercises, which build off of each other. You'll get co
 		- Use at least one `<img>` tag (and hopefully more). If you find yourself wanting or needing to edit images on the Mac, I recommend installing [GIMP](http://www.gimp.org/downloads/). When placing images in your page, put them in a new directory called `images` within your `<username>` directory.
 		- Uses at least one [HTML entity](http://www.w3schools.com/html/html_entities.asp). Hint: putting a copyright notice in your footer will afford you the opportunity to use &copy;, but you should also try to get creative here.
 		- Gets creative. Don't stop with these items or tags. Have some ideas for your page, and make it great. And dig into the [w3schools HTML reference](http://www.w3schools.com/tags/default.asp) to learn more about other tags, their usage and attributes!
-3. Don't add any CSS yet. Really, we mean it! If you think your page looks boring now, that's okay. We'll get there soon enough.
-4. As you go, you'll want to view your page on your computer. You can do this by selecting *File > Open File* in your browser, and navigating to the location of your new HTML file.
-5. When you're done, `git add` new files, then commit and push all changes to your repository (include a useful message with your commit). From your project root directory:
+1. Don't add any CSS yet. Really, we mean it! If you think your page looks boring now, that's okay. We'll get there soon enough.
+1. As you go, you'll want to view your page on your computer. You can do this by selecting *File > Open File* in your browser, and navigating to the location of your new HTML file.
+1. When you're done, `git add` new files, then commit and push all changes to your repository (include a useful message with your commit). From your project root directory:
+
 	```
 	$ git add .
 	$ git commit -m "Finished work on HTML page"
 	$ git push origin gh-pages
 	```
-6. View your page on your GitHub Pages site. This will be at a URL of the form **https://[USERNAME].github.io/html-me-something/submissions/[USERNAME]/**
-7. Well done! Time to [dive into some CSS](https://github.com/LaunchCodeEducation/html-me-something/tree/gh-pages/css)!
+1. View your page on your GitHub Pages site. This will be at a URL of the form **https://[USERNAME].github.io/html-me-something/submissions/[USERNAME]/**
+1. Well done! Time to [dive into some CSS](https://github.com/LaunchCodeEducation/html-me-something/tree/gh-pages/css)!
 
 ### Tips
 * Use your browser developer tools to troubleshoot things that don't look right. You can also use the *View Source* option on your page and other pages on the web, to see what HTML is being used, and to get ideas.
