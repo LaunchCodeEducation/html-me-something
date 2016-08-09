@@ -64,6 +64,7 @@ $ mkdir [USERNAME]
 ```
 * Create and save a new file, `index.html`, within your username directory. Add a single line with the following HTML and save: `<p>YOUR NAME</p>`
 * In Terminal, from the project root folder (you'll need to run `cd ..` to get there) run `git status` and then, if all looks good, run `git add .` to stage your new file. Then commit and push it to your GitHub repo.
+
     ```
     $ git commit -m "Adding my submission"
     [gh-pages 4875550] Adding my submission
