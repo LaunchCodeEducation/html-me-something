@@ -1,0 +1,55 @@
+body {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1024px;
+  font-size: 90%;
+  color: #A5D6A7;
+  background-color: #81C784;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h1 {
+  color: #1B5E20;
+  margin: 2em;
+}
+
+
+div {
+  align-items: center;
+}
+
+figure {
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+figcaption {
+  font-style: italic;
+}
+
+footer {
+  color: #1B5E20;
+  text-align: center;
+}
+
+img {
+  border-radius: 50px;
+  max-width: 100%;
+}
+
+main {
+  border-radius: 50px 1px;
+  background-color: #2E7D32;
+  padding-top: 3em;
+}
+
+p {
+  padding: 2em;
+}
+
+#hotelcap {
+  color: #1B5E20;
+}
