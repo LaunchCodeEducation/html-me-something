@@ -33,19 +33,23 @@ p {
 
 .this {
 	background-color: #668cff;
+	min-height: 600px;
 	
 }
 
 .that {
 	background-color: #00cccc;
+	min-height: 600px;
 	
 }
 
-.near {
-	
-}
-
-.far {
+.here {
+	min-height: 100px;
+	background-image: url("images/eyes.png");
+	background-size: 100% 300%;
+	background-position: center;
+	left: 0px;
+	right: auto;
 	
 }
 
@@ -64,6 +68,7 @@ p {
 	float: right;
 	right: 0px;
 	max-width: 600px;
+	margin: 50px 0px 0px 0px;
 }
 
 .lifeof {
@@ -82,6 +87,7 @@ p {
 	width: 90px;
 	height: 200px;
 	background-color: #ff80aa;
+	margin: 50px 0 0 0;
 	
 }
 
@@ -96,21 +102,12 @@ p {
 	
 	width: 400px;
 	height: 90px;
-	background-color: #ccff99;
+	background-color:  #ff6666;
+	
+	margin: 50px 0 0 0;
 	
 }
 
-.box3 {
-	right: 200px;
-	left: auto;
-	font-size: 8px;
-	padding: 16px;
-	
-	width: 20px;
-	height: 120px;
-	background-color: #668cff;
-	
-}
 .khaled p {
 	font-family: impact;
 	background-color: #ff80aa;
