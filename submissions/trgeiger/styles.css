@@ -2,8 +2,9 @@ body {
   width: 100%;
   margin: 0 auto;
   max-width: 1024px;
-  font-size: 90%;
+  font-size: 135%;
   color: #A5D6A7;
+  font-family: monospace;
   background-color: #81C784;
 }
 
@@ -19,6 +20,7 @@ h1 {
 
 div {
   align-items: center;
+  max-width: inherit;
 }
 
 figure {
@@ -44,6 +46,7 @@ main {
   border-radius: 50px 1px;
   background-color: #2E7D32;
   padding-top: 3em;
+  padding-bottom: 3em;
 }
 
 p {
@@ -52,4 +55,9 @@ p {
 
 #hotelcap {
   color: #1B5E20;
+}
+
+h1.large {
+  font-size: 400%;
+  font-weight: bold;
 }
