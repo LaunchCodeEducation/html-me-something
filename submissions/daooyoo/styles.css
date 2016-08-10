@@ -42,6 +42,7 @@ nav ol {
 
 nav ol li {
     display: inline-block;
+    font-size: .8em;
 }
 
 img {
