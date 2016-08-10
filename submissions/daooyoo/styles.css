@@ -3,5 +3,6 @@ body {
     max-width: 1024px;
     margin: 0 auto;
     background-color: darkblue;
+    color: white;
     font-size: 1rem;
 }
