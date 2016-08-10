@@ -46,6 +46,11 @@ nav ol li {
     padding: .2em;
 }
 
+figure {
+    margin: 0;
+    padding: 0;
+}
+
 img {
     max-width: 100%;
 }
