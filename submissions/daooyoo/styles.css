@@ -56,6 +56,7 @@ section:last-child {
 
 p {
     padding: 1.25em;
+    padding-top: 0;
 }
 
 nav ol {
@@ -78,4 +79,8 @@ img {
     max-width: 100%;
     padding: 0;
     margin: 0;
+}
+
+footer {
+    padding: 3em;
 }
