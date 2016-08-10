@@ -1,0 +1,47 @@
+body {
+    background-color: #cccccc;
+}
+header {
+    text-align: center;
+    margin-bottom: 2%;
+}
+#banner {
+    color: #18b1a8;
+    font-size: 1.3em;
+}
+.box {
+    display: inline-block;
+    text-decoration: none;
+    margin: 5px;
+    color: #ff5757;
+}
+section {
+    padding: 2%;
+}
+p {
+    font-size: 1.1em;
+}
+h3 {
+    text-align: center;
+    margin: 0px;
+    background-color: #bbbbbb;
+}
+figure {
+    margin: auto;
+}
+figure:hover {
+    background-color: #bbbbbb;
+}
+img {
+    display: block;
+    padding: 10px;
+    margin: auto;
+    max-height: 50%;
+}
+figcaption {
+    text-align: center;
+    font-weight: bold;
+}
+footer {
+    margin-top: 2%;
+}
