@@ -72,8 +72,12 @@ nav ol {
 nav ol li {
     display: inline-block;
     font-size: .8em;
-    color: floralwhite;
     padding: .2em;
+}
+
+nav ol li a {
+    text-decoration: none;
+    color: floralwhite;
 }
 
 figure {
