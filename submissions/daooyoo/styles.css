@@ -43,7 +43,11 @@ main h2 {
 }
 
 section {
-    margin: 1.875em;
+    margin: 1.875em 0;
+}
+
+section:first-child {
+    margin-top: 0;
 }
 
 nav ol {
@@ -65,5 +69,5 @@ figure {
 img {
     max-width: 100%;
     padding: 0;
-    margin: .1em;
+    margin: 0;
 }
