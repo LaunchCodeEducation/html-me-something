@@ -4,7 +4,7 @@ body {
     margin: 0 auto;
     background-color: midnightblue;
     color: white;
-    font-size: 1rem;
+    font-size: 0.75rem;
 }
 
 header, footer {
@@ -53,6 +53,7 @@ section {
 
 section:first-child {
     margin-top: 0;
+    padding-top: .5em;
 }
 
 section:last-child {
