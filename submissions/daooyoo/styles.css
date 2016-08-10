@@ -56,7 +56,7 @@ section:first-child {
 }
 
 section:last-child {
-    margin-bottom: 0;
+    margin-bottom: -.3em;
 }
 
 p {
