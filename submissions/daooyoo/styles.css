@@ -37,6 +37,11 @@ h1 {
     font-size: 2.5em;
 }
 
+main {
+    padding: 0;
+    margin: 0;
+}
+
 main h2 {
     padding: 0.625em;
     padding-right: 0;
