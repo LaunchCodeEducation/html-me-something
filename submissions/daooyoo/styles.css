@@ -50,6 +50,14 @@ section:first-child {
     margin-top: 0;
 }
 
+section:last-child {
+    margin-bottom: 0;
+}
+
+p {
+    padding: 1.25em;
+}
+
 nav ol {
     text-align: center;
     padding: 0;
