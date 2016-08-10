@@ -12,7 +12,7 @@ header, footer {
 }
 
 main {
-    background-color: azure;
+    background-color: floralwhite;
     color: black;
 }
 
@@ -38,7 +38,7 @@ h1 {
 }
 
 main h2 {
-    padding: .625em;
+    padding: 0.625em;
     padding-right: 0;
 }
 
@@ -60,4 +60,5 @@ figure {
 
 img {
     max-width: 100%;
+    padding: 0;
 }
