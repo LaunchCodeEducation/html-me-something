@@ -21,7 +21,7 @@ header, main, footer {
 }
 
 header {
-    padding: 1.875em 0 0 0;
+    padding: 1.875em 0 -.1em 0;
     margin-bottom: -.1em;
 }
 
