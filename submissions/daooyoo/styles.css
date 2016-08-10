@@ -21,7 +21,7 @@ header, main, footer {
 }
 
 header {
-    padding: 1.875em 0 -.2em 0;
+    padding: 1.875em 0 0 0;
     margin-bottom: -.2em;
 }
 
@@ -72,6 +72,7 @@ nav ol {
 nav ol li {
     display: inline-block;
     font-size: .8em;
+    color: floralwhite;
     padding: .2em;
 }
 
