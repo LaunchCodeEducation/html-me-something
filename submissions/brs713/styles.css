@@ -1,0 +1,160 @@
+* {
+    
+    background-color: darkslategrey;
+    color: #283747;
+    font-family: sans-serif;    
+}
+
+p {
+    font-family: sans-serif;
+    margin: 50px 20px 20px 20px;
+    padding: 20px;
+    line-height: 1.4;
+}
+
+.intro {
+    padding-bottom: 80px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 0px;
+    font-size: 110%;
+    color: #1f618d;
+    letter-spacing: 1.5;
+}
+
+header {
+    background-color: darkslategrey;
+    color:  #fcf3cf;
+    text-align: center;
+    padding: 0px;
+}
+
+header h1 {
+    background-color: ebf5fb;
+    color: darkslategrey;
+    font-variant-caps: small-caps;
+    margin: 50px 15% 50px 10%;
+    padding: 20 20 20 20;
+    letter-spacing: 2;
+    text-decoration: underline;
+    text-decoration-style: words;  /* does nothing */
+}
+
+header h2, h3, h4, h5, h6, p {
+    background-color: inherit;
+}
+
+header h4{
+    font-weight: normal;
+    font-size: 1.1em;
+    color: #f7dc6f;
+    margin: 10px;
+}
+
+footer {
+    background-color: darkslategrey;
+    color:  #fcf3cf;
+    font-family: serif;
+    font-size: 1.3em;
+    line-height: 1.5;
+    padding: 0px;
+    margin: 50px 20%;
+/*
+    margin-right: 20%;
+    margin-top: 75px;
+    margin-bottom: 75px;
+*/
+}
+
+h1, h3, h4, h5, h6, em, strong, a, article, div {
+    background-color: inherit;
+    color: inherit;
+    font-family: inherit;
+}
+
+a {
+    color: #1f618d;
+    text-decoration: none;
+}
+
+:hover {
+    font-size: 1.05em;
+    letter-spacing: 1.2;
+    font-style: italic;
+    color: #2874a6;
+    text-decoration: underline;
+    text-decoration-style: double;  /* does nothing */
+    text-decoration-color: #148f77;  /* does nothing */
+}
+
+h2 {
+    padding: 10px 100px 10px 100px;
+/*    border: 10px solid yellow;*/
+    color: #f7dc6f;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+h4 {
+    font-size: 120%;
+    text-align: center;
+}
+
+main {
+    color: #283747;
+    background-color: #ebf5fb;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+}
+
+
+article {
+    margin-left: 7%;
+    font-family: monospace;
+    font-size: 120%;
+}
+
+
+img {
+    max-height: 300px;
+    max-width: 420px;
+    align-content: center;
+    margin: 20px;
+}
+
+.category {
+    overflow: auto;
+    min-height: 300px;
+    vertical-align: middle;
+}
+
+.cntr {
+    text-align: center;
+}
+
+.rght {
+    float: right;
+    right: 5%;
+}
+
+.left {
+    float: left;
+    
+}
+
+#shoes {
+    margin-left: 15%;
+    margin-right: 25%;
+}
+
+#helmet {
+    margin-left: 25%;
+    margin-right: 20%;
+}
+
+strong {
+    font-style: italic;
+    text-decoration: underline;
+}
+
