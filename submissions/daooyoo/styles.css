@@ -42,6 +42,10 @@ main h2 {
     padding-right: 0;
 }
 
+section {
+    margin: 1.875em;
+}
+
 nav ol {
     text-align: center;
     padding: 0;
