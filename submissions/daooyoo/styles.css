@@ -2,7 +2,11 @@ body {
     width: 100%;
     max-width: 1024px;
     margin: 0 auto;
-    background-color: darkblue;
+    background-color: midnightblue;
     color: white;
     font-size: 1rem;
+}
+
+header {
+    background-color: darkgoldenrod;
 }
