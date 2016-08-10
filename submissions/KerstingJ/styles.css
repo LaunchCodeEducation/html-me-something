@@ -142,9 +142,23 @@ main {
 	width: 400px;
 	height: 90px;
 	background-color: #ccff99;
-	overflow: hidden;
 	
 }
+
+.popup {
+	display: none;
+	bottom: 0px;
+	top: auto;
+
+}
+
+.khaled:hover .popup {
+	display: block;
+	transition: 0.35s;
+	align-self: center;
+	float: right;
+}
+	
 
 
 footer {
