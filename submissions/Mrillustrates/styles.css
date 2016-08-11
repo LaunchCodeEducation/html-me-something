@@ -1,0 +1,103 @@
+
+.snews {
+    text-align: left;
+    font-family: 'Palatino Linotype', 'Palatino', Arial;
+    color: black;
+    top: 400px;
+    left: 770px;
+    font-size: 14px;
+    max-width: 200px;
+    min-width: 100px;
+    letter-spacing: 3px;
+    line-height:100%;
+    text-decoration: none;
+    position: absolute;
+    left: 770px;
+    top: 170px;
+
+
+    }
+
+#linkright{
+    text-decoration: none;
+    color:black;
+
+}
+p.news {
+        text-align: justify;
+        font-family: 'Palatino Linotype', 'Palatino', Arial;
+        color: black;
+        font-size: 16px;
+        max-width: 700px;
+        min-width: 300px;
+        letter-spacing: 3px;
+        line-height:150%;
+        }
+#name {
+        font-family: Lucida, 'Geneva', sans-serif
+}
+#bio {
+    font-family: Lucida, 'Geneva', sans-serif;
+    font-size: 40px;
+    background-image: url("https://tse1.mm.bing.net/th?&id=OIP.Mf337ff59fe09849f305bc1e4c9aae2d9o0&w=300&h=95&c=0&pid=1.9&rs=0&p=0&r=0");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-width:thick;
+    color: #FFD700;
+
+}
+#dball {
+    text-align:center;
+    height:100px;
+    position:absolute;
+    top:-50px;
+    left: 630px;
+    bottom:150px;
+
+}
+#announce {
+    color: black;
+    font-family: "Myriad Pro Bold", Arial, Verdana;
+    font-size: 45px;
+    max-width: 550px;
+    min-width:300px;
+    text-align: center;
+}
+.orange {
+    background-color: #F2F2F2;
+    letter-spacing: 0.15em;
+    max-width: 120%;
+    min-width: 720px;
+    padding: 20px;
+    margin:0 auto 0 auto;
+    padding:5px;
+
+}
+#image {
+    display: block;
+    margin-left: 0px;
+    margin-right:200px;
+    height: 300px;
+}
+#ouch {
+    float: left;
+    margin: 0 0 10px 10px;
+    padding-right: 10px;
+}
+.bimg {
+    position: absolute;
+    width: 400px;
+    left: 770px;
+    top: 700px;
+    max-height: 100%;
+}
+h2 {
+    position: absolute;
+    top: 150px;
+    left: 25px;
+    width: 100%;
+    color: black;
+}
