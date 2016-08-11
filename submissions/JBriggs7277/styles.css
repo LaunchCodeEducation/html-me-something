@@ -1,0 +1,109 @@
+/* This normalizes the browser */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End of normalization*/
+/*Code actually starts here*/
+body {
+	background-color: black;
+}
+
+header,
+main,
+footer {
+	margin-left: 150px;
+	margin-right: 150px;
+	background-color: #ddd;
+	text-align: center;
+}
+
+header h1{
+	font-size: 80px;
+	text-align: center;
+}
+header p {
+	font-size: 40px;
+	text-align: center;
+}
+figure {
+	text-align: center;
+	font-style: italic;
+}
+
+h3 {
+	font-size: 40px;
+	text-decoration: underline;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+section {
+	margin: 50px;
+}
+
+section:first-child {
+	margin: 0;
+	padding-top: 50px;
+}
+
+section:last-child {
+	margin: 0;
+	padding-bottom: 100px;
+}
+.awesome {
+	font-family: Arial;
+	font-size: 20px;
+}
+
+footer {
+	padding-bottom: 75px;
+}
+
+#cooler {
+	font-size: 20px;
+}
+
+footer img {
+	width: 200px;
+	height: 200px;
+}
