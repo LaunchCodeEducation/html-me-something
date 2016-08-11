@@ -1,0 +1,155 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/*html, body, div, span, applet, object, iframe,*/
+/*h1, h2, h3, h4, h5, h6, p, blockquote, pre,*/
+/*a, abbr, acronym, address, big, cite, code,*/
+/*del, dfn, em, img, ins, kbd, q, s, samp,*/
+/*small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}*/
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	text-align: center;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+  color: #654236;
+  background: #fff;
+  font-family: sans-serif;
+  font-size: 80%;
+}
+
+a {
+	color: #DB995A;
+	-webkit-transition: all 0.25s ease-out;
+	-moz-transition: all 0.25s ease-out;
+	transition: all 0.25s ease-out;
+	text-decoration: none;
+}
+
+a: visisted {
+	color: #08415C;
+}
+
+a: hover, a:focus {
+	color: #DB995A;
+	text-decoration: underline;
+}
+header {
+	height: 230px;
+	padding: 20px 0 70px 0;
+	background: #D6D4A0;
+}
+h1, h2 {
+	padding: 0 10%;
+	margin: 0;
+	color: #1C0118;
+	font-weight: bolder;
+}
+
+h1 {
+	padding-top: 20px;
+	padding-bottom: 30px;
+	border-bottom-color: currentColor;
+	font-family: fantasy;
+	font-size: 3.2em;
+	text-transform: capitalize;
+}
+
+h2 {
+	display: block;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	border-top: none;
+	color: #DB995A;
+	font-size: 1.8em;
+	font-style: italic;
+}
+
+p {
+	padding: 0 10%;
+	padding-bottom: 10px;
+	margin: 0.75em 0;
+	line-height: normal;
+	color: #DB995A;
+}
+
+img {
+	padding: 1%;
+	border-style: double;
+	margin: 2%
+	border-color: #1C0118;
+}
+
+#famous {
+	color: #DB995A;
+}
+
+#end {
+	color: #1C0118;
+}
+
+#Issac {
+	color: #1C0118;
+}
+
+#era {
+	color: #1C0118;
+}
+
+#rpn {
+	color: #1C0118;
+}
+
+.Issac {
+	background-color: #388697;
+}
+
+.visitors {
+	background-color: #08415C;
+}
+
+.end {
+	background-color: #388697;
+}
+
+.footer {
+	background-color: #388697;
+}
