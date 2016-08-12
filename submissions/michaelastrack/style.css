@@ -1,0 +1,97 @@
+header {
+  background-color: lime;
+  border: 8px dashed gold;
+  color: slategray;
+  padding-bottom: 80px;
+
+}
+
+header h1 {
+  text-align: center;
+  font-size: 55px;
+}
+
+header h3 {
+  margin-left: 15%;
+  font-size: 25px;
+  color: goldenrod;
+}
+
+main {
+  background-color: lightsalmon;
+}
+
+.subtitle {
+  text-align: center;
+  background-color: silver;
+  color: midnightblue;
+  border: 6px dotted crimson;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 35px;
+}
+
+.caption {
+  border: 1px solid black;
+  text-align: center;
+}
+
+.text {
+  color: midnightblue;
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+
+footer {
+  background-color: khaki;
+  font-size: 15px;
+  border: 5px dashed darkgreen;
+}
+
+#pic1 {
+  margin-left: 30%;
+  width: 540px;
+  height: 360px;
+  border: 5px solid black;
+}
+
+#pic2 {
+  margin-left: 21%;
+  width: 779px;
+  height: 360px;
+  border: 5px solid darkcyan;
+}
+
+#pic3 {
+  margin-left: 25%;
+  width: 720px;
+  height: 514px;
+  border: 5px solid maroon;
+}
+
+#pic4 {
+  margin-left: 38%;
+  height: 350px;
+  width: 350px;
+  border: 5px solid black;
+}
+#pic5 {
+  margin-left: 27%;
+  width: 688px;
+  height: 387px;
+  border: 5px solid goldenrod;
+}
+
+#pic6 {
+  margin-left: 22%;
+  width: 726px;
+  height: 486px;
+  border: 5px solid black;
+}
+
+#pic7 {
+  margin-left: 17%;
+  width: 880px;
+  height: 462px;
+  border: 5px solid darkslategray;
+}
