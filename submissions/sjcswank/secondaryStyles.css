@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+head {
+  display:none;
+}
+
+body {
+  background: #BCF0FF;
+  color: #444444;
+  font: 18px Arial, Tahoma, sans-serif;
+  text-align: center;
+}
+main {
+  margin: auto;
+  width: 760px;
+}
+
+div.intro {
+  position: absolute;
+  background-color: transparent;
+  width: 760px;
+  margin: auto;
+}
+
+div.introimg {
+  position: absolute;
+  background-color: #BCF0FF;
+  width: 760px;
+  margin: auto;
+}
+
+div.title {
+  position:absolute;
+  background-color: transparent;
+  width: 760px;
+  margin: auto;
+  top: 597px;
+  z-index: 200;
+}
+
+div {
+  display: block;
+}
+
+div.summary, div.summary#blurb {
+  position: absolute;
+  font: 14px Arial, Tahoma, sans-serif;
+  background-color: #FEFEFE;
+  z-index: 300;
+  top: 650px;
+  width: 430px;
+}
+
+ div.summary#blurb {
+   border-radius: 10px;
+ 	 border: 2px solid #FEFEFE;
+   width: 309px;
+   margin-left: 390px;
+   margin-top: 22px;
+   padding: 18px;
+ }
+
+div.summary#blurb p {
+  text-align: left;
+}
+
+div.about {
+  border-radius: 10px;
+  border: 2px solid #FEFEFE;
+  width: 316px;
+  text-align: left;
+  padding: 18px;
+  margin-right: 415px;
+  background-color: #FEFEFE;
+  position: absolute;
+  z-index: 300;
+  top: 650px;
+}
+
+h4 {
+  padding-left: 18px;
+}
+div.about p {
+  padding-top: 18px;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+div.home {
+  border-radius: 10px;
+	border: 2px solid #81C11F;
+	background-color: #73CC4B;
+	height: 25px;
+	width: 130px;
+	margin-right: 500px;
+  margin-left: 130px;
+	text-align: center;
+  text-decoration: none;
+  color: #FEFEFE;
+  position: absolute;
+  top: 882px;
+  z-index: 200;
+}
+
+div.feedback {
+  border-radius: 10px;
+	border: 2px solid #FF6A00;
+	background-color: #FF8330;
+	height: 25px;
+	width: 130px;
+	margin-left: 500px;
+	text-align: center;
+  text-decoration: none;
+  color: #FEFEFE;
+  position:absolute;
+  top: 882px;
+  z-index: 200;
+}
+
+footer {
+  border-radius: 10px;
+  border: 2px solid #FEFEFE;
+  text-align: center;
+  font: 10px/33px Tahoma, Arial, sans-serif;
+  width: 756px;
+  background-color: #FEFEFE;
+  position:absolute;
+  top: 872px;
+  margin-bottom: 18px;
+}

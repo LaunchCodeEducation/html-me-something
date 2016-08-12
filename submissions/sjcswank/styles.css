@@ -1,0 +1,182 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+head {
+  display:none;
+}
+
+body {
+  background: #BCF0FF;
+  color: #444444;
+  font: 18px Arial, Tahoma, sans-serif;
+  text-align: center;
+}
+main {
+  margin: auto;
+  width: 760px;
+}
+
+div.intro {
+  position: absolute;
+  background-color: transparent;
+  width: 760px;
+  margin: auto;
+}
+
+div.introimg {
+  position: absolute;
+  background-color: #BCF0FF;
+  width: 760px;
+  margin: auto;
+}
+
+div.title {
+  position:absolute;
+  background-color: transparent;
+  width: 760px;
+  margin: auto;
+  top: 597px;
+  z-index: 200;
+}
+
+div {
+  display: block;
+}
+
+div.summary, div.summary#blurb {
+  position: absolute;
+  font: 14px Arial, Tahoma, sans-serif;
+  background-color: #FEFEFE;
+  z-index: 300;
+  top: 650px;
+  width: 430px;
+}
+
+ div.summary#blurb {
+   border-radius: 10px;
+ 	 border: 2px solid #FEFEFE;
+   width: 309px;
+   margin-left: 390px;
+   margin-top: 22px;
+   padding: 18px;
+ }
+
+div.summary#blurb p {
+  text-align: left;
+}
+
+div.about {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-top: 2px solid #FEFEFE;
+  width: 316px;
+  text-align: left;
+  padding: 18px;
+  margin-right: 415px;
+  background-color: #FEFEFE;
+  position: absolute;
+  z-index: 300;
+  top: 650px;
+}
+
+div.jane {
+  position: absolute;
+  top: 854px;
+  margin-right: 415px;
+  text-align: left;
+  width: 316px;
+  padding: 18px;
+  background-color: #FEFEFE;
+}
+
+div.janeimg {
+  border-top-right-radius: 10px;
+  border: 2px solid #FEFEFE;
+  position: absolute;
+  top: 854px;
+  margin-left: 341px;
+  padding-top: 39px;
+  padding-bottom: 12px;
+  width:415px;
+  background-color: #FEFEFE;
+}
+
+div.mechimg {
+  position: absolute;
+  top: 1310px;
+  margin-right: 309;
+  width:415px;
+  background-color: #FEFEFE;
+  height: 409px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  border-bottom-left-radius: 10px;
+  border: 2px solid #FEFEFE;
+}
+
+div.mechanics {
+  position: absolute;
+  top: 1310px;
+  margin-left: 411px;
+  text-align: left;
+  width: 309px;
+  padding-top: 18px;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-bottom: 55px;
+  background-color: #FEFEFE;
+  border-bottom-right-radius: 10px;
+  border: 2px solid #FEFEFE;
+
+}
+
+div.mechanics p{
+  padding-top: 18px;
+}
+
+
+div.support {
+  border-radius: 10px;
+	border: 2px solid #81C11F;
+	background-color: #73CC4B;
+	height: 25px;
+	width: 130px;
+	margin-right: 500px;
+  margin-left: 130px;
+	text-align: center;
+  text-decoration: none;
+  color: #FEFEFE;
+  position: absolute;
+  top: 1780px;
+  z-index: 200;
+}
+
+div.feedback {
+  border-radius: 10px;
+	border: 2px solid #FF6A00;
+	background-color: #FF8330;
+	height: 25px;
+	width: 130px;
+	margin-left: 500px;
+	text-align: center;
+  text-decoration: none;
+  color: #FEFEFE;
+  position:absolute;
+  top: 1780px;
+  z-index: 200;
+}
+
+footer {
+  border-radius: 10px;
+  border: 2px solid #FEFEFE;
+  text-align: center;
+  font: 10px/33px Tahoma, Arial, sans-serif;
+  width: 756px;
+  background-color: #FEFEFE;
+  position:absolute;
+  top: 1772px;
+  margin-bottom: 18px;
+}
