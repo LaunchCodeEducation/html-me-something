@@ -1,0 +1,22 @@
+selector {
+    property: value;
+
+}
+.line-content {
+    padding: 0px 5px !important;
+}
+p {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+p {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+p {
+    background-color: yellow;
+}
