@@ -230,6 +230,10 @@ button:hover {
 	width: 600px;
 }
 
+#fourthQuarter {
+	margin-bottom: 20px;
+}
+
 footer {
 	clear: both;
 	height: 20px;
