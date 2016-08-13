@@ -1,0 +1,98 @@
+body {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    background-color: midnightblue;
+    color: white;
+    font-size: 0.75rem;
+}
+
+header, footer {
+    background-color: darkgoldenrod;
+}
+
+main {
+    background-color: floralwhite;
+    color: black;
+}
+
+header, main, footer {
+    font-size: 1.6em;
+}
+
+header {
+    padding: 1.875em 0 0 0;
+    margin-bottom: -.2em;
+}
+
+header h1 {
+    text-align: center;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+main {
+    padding: 0;
+    margin: 0;
+}
+
+main h2 {
+    padding: 0.625em;
+    padding-right: 0;
+}
+
+section {
+    margin: 1.875em 0;
+}
+
+section:first-child {
+    margin-top: 0;
+    padding-top: .5em;
+}
+
+section:last-child {
+    margin-bottom: -1em;
+}
+
+p {
+    padding: 1.25em;
+    padding-top: 0;
+}
+
+nav ol {
+    text-align: center;
+    padding: 0;
+}
+
+nav ol li {
+    display: inline-block;
+    font-size: .8em;
+    padding: .2em;
+}
+
+nav ol li a {
+    text-decoration: none;
+    color: floralwhite;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    padding: 1em;
+    margin: 0;
+}
