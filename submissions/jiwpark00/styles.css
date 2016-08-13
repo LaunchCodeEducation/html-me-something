@@ -1,0 +1,52 @@
+#logoLaunch {
+  margin-left: 250px;
+}
+
+footer {
+  font-family: monospace;
+  font-size: 13px;
+}
+
+.headername {
+  background-color: gray;
+  color: blue;
+}
+
+h1.question {
+  text-align: center;
+  font-family: monospace;
+  font-style: italic;
+}
+
+.imgcre {
+  font-family: monospace;
+  font-size: 10px;
+}
+
+img.logo {
+  display: block;
+  padding-top: 20px;
+  margin-right: 200px;
+}
+
+p.launchcodecredit {
+  text-align: center;
+  font-family: monospace;
+}
+
+.maintext {
+  font-family: monospace;
+  font-size: 20px;
+}
+
+nav ul {
+  text-align: center;
+  padding:0;
+
+}
+
+nav ul li {
+  font-size: 20px;
+  font-family: monospace;
+  display:inline-block;
+}
