@@ -24,15 +24,17 @@ header h1 {
 }
 
 h1, h2, {
-        margin: 0;
+        margin: 100px 150px 100px 150px;
 }
 
 h1 {
         font-size: 2.5em;
 }
 
+
 main h2 {
         padding: 0.625em 0 0.625em 0.625em;
+        font-size: 1.875em;
 }
 
 section {
@@ -54,18 +56,20 @@ nav ol {
 nav ol li {
     display: inline-block;
     margin-right: 1em;
-    font-size: 0.80em;
+    font-size: 1em;
 }
 
-p{
+p {
         padding: 1.25em;
+        font-size: 1em;
 }
 
 footer p{
     display: inline-block;
+    font-size: 1em;
 }
 
 img {
-    width: 100%;
-    max-width: 100%;
+    width: 50%;
+    max-width: 50%;
 }
