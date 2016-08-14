@@ -460,3 +460,7 @@ article {
 p:nth-child(4) {
     padding-bottom: 0px;
 }
+
+footer {
+	font-size: 12px;
+}
