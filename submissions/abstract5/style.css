@@ -1,0 +1,60 @@
+html {
+    background-color: gray;
+}
+
+body {
+    background-color: #8abbbc;
+    margin: 0 10%;
+    max-width: 100%;
+    font-size: 62.5%;
+    border-radius: 2%;
+}
+
+header, main, footer {
+    text-align: center;
+    font-size: 1.6em;
+}
+
+header {
+    padding: 1.875em 0;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+a:hover {
+    color: #218c26;
+}
+
+.main {
+    font-family: times;
+    font-size: 1.6em;
+}
+
+p {
+    font-size: 0.8em;
+    text-align: left;
+}
+
+footer {
+    text-align: center;
+    padding: 3em;
+}
+
+section:first-child {
+    padding-top: 3em;
+}
+
+#last{
+    padding-bottom: 3em;
+}
+figcaption {
+    font-style: italic;
+}
