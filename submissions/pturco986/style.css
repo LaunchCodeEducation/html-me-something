@@ -3,16 +3,18 @@ body {
         max-width: 1024px;
         margin: 0 auto;
         background-color: #778899;
-        font-size: 70%;
+        font-size: 100%;
 }
 
 header {
         background-color: #B0E0E6;
+        font-size: 1.6em;
 }
 
 main,
 footer {
         background-color: #4682B4;
+        font-size: 1.6em
 }
 
 header {
@@ -24,7 +26,7 @@ header h1 {
 }
 
 h1, h2, {
-        margin: 100px 150px 100px 150px;
+        margin: 0;
 }
 
 h1 {
@@ -61,12 +63,16 @@ nav ol li {
 
 p {
         padding: 1.25em;
-        font-size: 1em;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
 footer p{
     display: inline-block;
-    font-size: 1em;
 }
 
 img {
