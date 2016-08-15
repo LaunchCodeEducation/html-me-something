@@ -1,6 +1,6 @@
 header {
 	text-align: center;
-	padding: auto;
+	padding: 50px;
 	}
 
 article {
@@ -9,6 +9,23 @@ article {
 	text-align: center;
 	border: 3px solid red;
 	}
+	
 body {
 	background-color: #F4A460;
+	}
+	
+footer.sarcasm {
+	text-align: center;
+	padding: 50px;
+	border: 2px dashed green;
+	}
+h1 {
+	font-weight: bold;
+	color: black;
+	font-size: 5em;
+	}
+	
+#first {
+	color: blue;
+	font-size: 3em;
 	}
