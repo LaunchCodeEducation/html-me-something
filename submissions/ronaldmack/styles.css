@@ -1,0 +1,64 @@
+body {
+    font-size: medium;
+    font-family: Verdana;
+    background-color: #f2f2f2;
+    margin: 8px;
+}
+
+header {
+    font-weight: bold;
+    margin-top: 1.0em;
+    margin-bottom: 0.5em;
+}
+
+#smaller {
+    font-size: small;
+}
+
+.bigger {
+    font-size: 40px;
+}
+
+img {
+    border: 1px solid #021a40;
+    width: auto;
+    length: 200;
+}
+
+h2 {
+    text-align: justify;
+    margin-top: 1.0em;
+    margin-bottom: 0.5em;
+    padding: 10px;
+}
+
+p {
+    text-indent: 0.5em;
+    padding: 6px;
+}
+
+figcaption {
+    font-style: oblique;
+    font-family: serif;
+    font-size: 80%
+}
+
+a:link {
+    text-decoration: none;
+    color: purple;
+}
+a:visited {
+    text-decoration: line-through;
+    color: hotpink;
+}
+a:hover {
+    text-decoration: underline;
+    color: green;
+}
+a:active {
+    text-decoration: underline;
+    color: red;
+}
+footer{
+    text-align: center;
+}
