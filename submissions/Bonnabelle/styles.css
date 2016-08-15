@@ -2,6 +2,10 @@ body{
     background-image: url(http://1.bp.blogspot.com/-fSCeJH5zHhw/UmrcX8ZCMKI/AAAAAAAAAF4/anuhadm6IiU/s1600/Grey+Chevron.png);
 }
 
+#indexbod{
+    background-color:#999999;
+}
+
 #favc{
     font-size: 25px;
     width: 150px;
