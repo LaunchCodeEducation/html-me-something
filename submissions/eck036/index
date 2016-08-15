@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title> Emily Mahan Resume</title>
+  <link type="text/css" rel="stylesheet" href="normalize.css">
+  <link type= "text/css" rel="stylesheet" href="styles.css">
+</head>
+<body
+  <header>
+<h1> Emily Mahan </h1>
+<h1> Resume</h1>
+<nav>
+  <ul>
+    <li> <a href="#Contact Me"> Contact Me </a></li>
+    <li> <a href="#Key Skills"> Key Skills</a></li>
+    <li> <a href= "#Work Experience">Work Experience</a></li>
+    <li><a href="#Education"> Education</a></li>
+  </ul>
+</nav>
+</header>
+<main>
+  <article>
+    <section>
+      <a name="Contact Me"></a>
+      <h2>Contact Me</h2>
+      <p>eck036@gmail.com<br>(314) 302-1310<br>1936 Compton Hill Pl<br> Saint Louis, MO 63104</p>
+      <img src ="https://farm9.staticflickr.com/8731/28233921781_1d9c410e92_b.jpg" />
+    </section>
+    <section>
+      <a name="Key Skills"></a>
+      <h2> Key Skills</h2>
+        <ul>
+          <li>Java</li>
+          <li> HTML & CSS</li>
+          <li>Python</li>
+          <li>Microsoft Office Suite, including Access</li>
+        </ul>
+      </section>
+<section>
+  <a name ="Work Experience"></a>
+  <h2>Work Experience</h2>
+    <ol>
+      <h2 class="job title"><li>Financial Resource Counselor</li></h2>
+        <h3><a href="http://www.stlouischildrens.org/">Saint Louis Childrens Hospital</a><br> October 2015-present</h3>
+        <h3>Job Duties</h3>
+        <ul>
+          <li>Counseled uninsured and under-insured population on financial options and financial assistance</li>
+          <li>Negotiated Single Payer Agreements for patients with out-of-state insurance in order for them to receive services</li>
+          <li>Specialized in Newborn population to assist new parents on how to obtain insurance coverage for new babies</li>
+        </ul>
+    <img src = "https://farm2.staticflickr.com/1462/25621070162_be5004ab35_c.jpg"/>
+      <h2 class= "job title"><li>Communications Arts Teacher</h2></li>
+        <h3><a href= "http://www.rsdmo.org/lafayette/Pages/default.aspx">Lafayette High School</a><br> August 2011-May 2013</h3>
+        <h3>Job Duties </h3>
+          <ul>
+            <li>Taught 120+ students with diverse backgrounds, learning styles, and abilities </li>
+            <li>Led and coordinated in peer-level learning groups in order to make learning data-driven, response to student needs, and to develop communal best practices</li>
+          </ul>
+      </ol>
+<img src ="https://farm8.staticflickr.com/7140/27282430336_1f614b51c7_c.jpg" />
+</section>
+<section>
+  <a name ="Education"></a>
+<h2>Education</h2>
+  <h3 class ="job title">LaunchCode Summer of Code</h3>
+    <p class = "summary">Learned several different programming languages, such as Java and Python, as well as Web Development skills, such as HTML and CSS. </p>
+  <h3 class ="job title">Webster University<br>Masters of Arts in Education in Communication Arts (M.A.T)</h3>
+    <p class ="summary">Graduated Summa Cum Laude and obtained Teaching Certification for State of Missouri. </p>
+  <h3 class="job title">Truman State Univerity<br>Bachelors of Arts in English(B.A)</h3>
+  <p class="summary">Graduated Cum Laude. Minored in International Studies</p>
+</section>
+</article>
+</main>
+<footer>
+  <p>Posted by Emily Mahan 	&#169Emily Mahan</p>
+  <p>Contact information: <a href="mailto:eck036@gmail.com">
+  eck036@gmail.com</a></p>
+</footer>
+
+</body>
+
+</html>

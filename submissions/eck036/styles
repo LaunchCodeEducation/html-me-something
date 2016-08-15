@@ -1,0 +1,25 @@
+img {
+	width: 100%;
+	max-width: 100%;
+}
+body {
+	background-color: #b7d1c4
+}
+h1 {
+text-align: center
+text-family: Georgia
+padding: 10px
+text-color: #0047ab
+}
+nav ul {
+text-align: center
+text-decoration: none
+text-color: black
+}
+p {
+text-family: Georgia
+padding: 1.25 em
+}
+h2 {
+text-family: Georgia
+}
