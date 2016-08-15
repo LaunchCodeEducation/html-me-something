@@ -1,7 +1,12 @@
-body {
+body{
+    background-size: 100%;
+}
+main {
     background-color: #87CEEB;
     margin-left: 10%;
     margin-right: 10%;
+    padding-left: 2%;
+    padding-right: 2%;
     text-align: center;
 }
 .wikilinks {
