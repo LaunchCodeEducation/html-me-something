@@ -1,3 +1,53 @@
+body {
+  background-color: #ffd27f;
+}
+
+img {
+  width: 200px;
+  height: 150px;
+}
+
+header h1 {
+  font-size: 100px;
+  text-align: center;
+  margin-bottom: 50px;
+  background-color: #87bf26;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 5;
+  margin-bottom: 50px;
+  font-size: 50px;
+  text-align: center;
+}
+
+nav ul {
+  text-align: center;
+  background-color: #87bf26;
+
+}
+
+main h2 {
+ font-size: 20px;
+ font-weight: bold;
+ margin-bottom: 20px;
+ padding: 15px;
+}
+
+section p {
+  padding: 30px;
+}
+
+section figcaption {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+section figure {
+  padding: 10px;
+}
+
 .verticalunrotated {
   margin-top: 0px;
   margin-bottom: 50px;
