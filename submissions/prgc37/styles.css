@@ -1,0 +1,36 @@
+body {
+	background-color: black;
+}
+
+h1 {
+	color: white;
+	padding-left: 450px;
+	padding-right: 450px;
+}
+
+article {
+	color: white;
+}
+
+#PR {
+	padding-left: 300px;
+	padding-right: 300px;
+}
+
+#LtI {
+	padding-left: 500px;
+	padding-right: 500px;
+}
+
+.v1 {
+	color: red;
+}
+
+#v2 {
+	color: blue;
+}
+
+p {
+	padding-left: 200px;
+	padding-right: 200px;
+}
