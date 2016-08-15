@@ -54,11 +54,6 @@ figure{
     margin: 0;
     padding: 0;
 }
-figcaption {
-    text-align: center;
-	font-family: sans-serif, monospace;
-    font-size: 2em
-}
 #photos {
     line-height: 0;
     column-count: 2;
