@@ -1,0 +1,14 @@
+header {
+	text-align: center;
+	padding: auto;
+	}
+
+article {
+	width: 300px;
+	margin: auto;
+	text-align: center;
+	border: 3px solid red;
+	}
+body {
+	background-color: #F4A460;
+	}
