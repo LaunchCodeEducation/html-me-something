@@ -468,3 +468,8 @@ h3{
     border: 3px solid brown;
     border-radius: 5px;
 }
+
+img{
+    height: 240px;
+    width: 240px;
+}
