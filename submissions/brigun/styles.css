@@ -1,0 +1,76 @@
+body {font-size: 100%;
+    background-color: #c2c2b3; }
+
+h1 {text-align: center;
+    margin: 30px 0;
+    font:2.5em "Palatino Linotype", "Book Antiqua", Palatino, serif;}
+
+h2 li {margin-left: 200px;
+    display: inline;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;}
+
+h2 li a {color: #b30000;}
+
+h2 li a:hover {font-weight: bold;
+                color: #602040;}
+
+header {border-top: solid 4px #004d00;
+        border-bottom: solid 4px #004d00;}
+
+h3 {font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    text-align: center;
+    width: 20%;
+    margin-left: 40%;
+    background-color: #ff4d4d;
+    border-radius: 6px;
+    border: solid 2px #c2c2b3;}
+
+h4 {font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    margin-left: 30px;
+    text-decoration: underline;}
+
+#back {text-align: center;}
+
+article {margin: auto;
+        width: 87.5%;
+        padding-top: 30px;}
+
+span.quality {font-weight: bold;}
+
+.tip {border-bottom: dashed 1px #c2c2b3;}
+
+.tip .tiptext {visibility: hidden;
+    width: 120px;
+    background-color: #c2c2b3;
+    color: #ff4d4d;
+    text-align: center;
+    padding: 5px 5px;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;}
+
+.tip:hover .tiptext {visibility: visible;}
+
+p img {float: right;
+        margin: 0 0 10px 10px;
+        border: solid 2px #ff4d4d;}
+
+div.recipe {margin:auto;
+        width: 80%;
+        padding-top: 25;
+        background-color: #ff4d4d;
+        border: 2px #c2c2b3 solid;
+        border-radius: 6px;
+        font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+        font-size: 120%;}
+
+div ul {padding-bottom: 25px;}
+
+div ol {padding-bottom: 50px}
+
+p >a:link {color: #ff4d4d;}
+p >a:hover {color: #602040;}
+p >a:visited {color: #330000;}
