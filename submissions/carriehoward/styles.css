@@ -3,11 +3,14 @@ body {
     max-width: 1024px;
     margin: 0 auto;
     background-color: #999;
-    font-size: 12px;
-    font-family: sans-serif;
-
+    font-size: 18px;
+    font-family: Verdana, sans-serif;
 }
 img  {
     width:  725px;
     height: 525px
+}
+p {
+    font-size: 18px;
+    font-family: Verdana, sans-serif;
 }
