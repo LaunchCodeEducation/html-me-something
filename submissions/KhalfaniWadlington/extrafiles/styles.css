@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+    padding: 20px;
+	 background-color: blue;   
+   
+}
+
+h1 {
+	margin-bottom: 20px;
+
+}
+iframe#PREVIEW{
+	background-color:white
+}
+img{
+	width: 70%	
+	}
+p.descriptor {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+footer{
+    margin: 20px;
+    color: red;
+}

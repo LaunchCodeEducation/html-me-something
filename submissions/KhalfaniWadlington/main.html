@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+    
+	<head>
+ 	<link rel= "stylesheet" type= "text/css" href= "extrafiles/main.css">
+ 	<h1>This is my simple Image to Mp3 app :D </h1>	
+	</head>	
+	<body>
+		
+		
+		<form action="" method="post" enctype="multipart/form-data">
+				<input type="file" name="file"/>
+				<input type="submit" value="upload"/>	
+		</form>
+		
+		
+
+		    <img src="extrafiles/Example Document.jpg
+" alt="file not found???"  align="center" style="width:10%; float:center" >
+            <p>Is this the image that you want to listen to?</p>
+            <p>
+             <font size="2"> *Make sure it's properly aligned</font>
+
+            </p>
+            <button onclick="submitForm()">Continue</button>
+            <form id="formContinue" action="/image-view/{{file_name}}">
+
+            </form>
+
+            <script type="text/javascript">
+                function submitForm(){
+                document.getElementById("formContinue").innerHTML+="<i>please wait...</i>";//show user it it working
+                //document.getElementById("formContinue").submit();//coninue
+                };
+            </script>
+
+
+	
+		
+    <footer>
+	<p>
+	Sample The Audio:
+	    A quote from '<a href=http://www.poemhunter.com/poem/ozymandias/>Ozymandias</a>'
+    	</p>
+    	
+    	<audio src="/home/khalfani/Desktop/DO HW/KhalfaniWadlington/exefile.wav" controls="controls">
+                Your browser does not support the audio element.
+         </audio>
+	<p><font size="2"> **This website will extract the text from an image and read it aloud**</font></p>
+	<p><font size="2"> *For best results make sure the image is 600dpi quiality</font></p>
+	</footer>
+	</body>
+	
+            <script type="text/javascript">
+                function submitForm()
+                document.getElementById("formContinue").innerHTML+="Please wait; doing *magic*";//show user it it working
+                document.getElementById("formContinue").submit();//coninue
+                });
+            </script>
+	
+	
+
+	
+	
+
+	
+</html>
