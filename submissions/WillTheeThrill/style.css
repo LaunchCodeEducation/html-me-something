@@ -2,9 +2,6 @@ a{
   text-decoration: none;
   font-size: 25px;
 }
-a:hover {
-
-}
 a:visited {
   color: #000077;
 }
@@ -14,23 +11,15 @@ body {
 }
 h2{
   width: 50%;
-  
   border: thin solid #000;
   border-radius: 50px;
 }
 #header{
-
   width: 100%;
   height: 600px;
-
   padding-top: 20px;
   background-repeat: no-repeat;
   background-attachment: fixed;
-
-
-}
-main{
-
 }
 footer{
      width: 100%;
@@ -70,8 +59,7 @@ img{
   width: 49%;
   height: 400px;
   float:right;
-   borde: thin solid #555500;
-   padding-top: 75px;
+  padding-top: 75px;
 }
 #text {
     text-align: center;
