@@ -1,0 +1,66 @@
+html {
+    margin: 20;
+    padding: 5;
+}
+body {
+    font: 125% arial;
+    line-height: 1.88889;
+    font-color: black;
+    margin: 10;
+    padding: 0;
+    background-color: #dcdcdc;
+}
+h1 {
+    font: italic normal 3.4em georgia, sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+    text-align: center;
+    color: #70775C;
+}
+p {
+    margin-top: 0;
+    margin-right:auto;
+    text-align: justify;
+}
+article {
+    text-align: center;
+}
+#purpleom {
+    width: 700px;
+    height: 700px;
+    display: block;
+    margin: 0 auto;
+}
+.twogirlspic {
+    padding-left: 200px;
+}
+.centeredpics {
+    display: block;
+    margin: 0 auto;
+}
+.bold {
+    text-transform: uppercase;
+    font-family: tahoma;
+    color: #9932cc;
+    font-size: 40px;
+}
+.footer {
+    padding-right: 175px;
+}
+a:link {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #B7A5DF;
+}
+a:visited {
+    font-weight: bold;
+    text-decoration: none;
+    color: #9684ba;
+}
+a:hover, a:focus, a:active {
+    text-decoration: underline;
+    color: #9684BA;
+}
+footer {
+    text-align: center;
+}
