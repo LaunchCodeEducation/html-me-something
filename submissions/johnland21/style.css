@@ -1,3 +1,30 @@
-*{
-    font-family:Garamond, cursive;
+body{
+    display: block;
+    text-align: center;
+    max-width: 1024px;
+    margin: 0 auto;
+    background-color: darkgreen;
+    font-family: Garamond, sans-serif;
+}
+
+header, main, footer{
+    background-color: grey;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+figure{
+    text-align: center;
+
+}
+p.foot{
+    font-size: 8px;
+}
+
+#pic{
+    max-width: 800px;
+    max-height: 600px;
 }
