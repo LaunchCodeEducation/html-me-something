@@ -1,0 +1,17 @@
+.verticalunrotated {
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+.rotate90 {
+    -webkit-transform: translateY(-100%) rotate(90deg);
+    -moz-transform: translateY(-100%) rotate(90deg);
+    -o-transform: translateY(-100%) rotate(90deg);
+    -ms-transform: translateY(-100%) rotate(90deg);
+    transform: translateY(-100%) rotate(90deg);
+    -webkit-transform-origin: left bottom;
+    -moz-transform-origin: left bottom;
+    -o-transform-origin: left bottom;
+    -ms-transform-oritin: left bottom;
+    transform-origin: left bottom;
+}
