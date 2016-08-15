@@ -1,0 +1,23 @@
+body {
+    background-color: cyan;
+    margin: 100px 150px 100px 80px;
+}
+div{
+    padding: 50px 30px 50px 80px;
+    background-color: lightblue;
+}
+
+figure {
+    display: inline-block;
+
+    margin: 2px; /* adjust as needed */
+}
+figure img {
+    vertical-align: top;
+    width: 250px;
+
+}
+figure figcaption {
+
+    text-align: center;
+}
