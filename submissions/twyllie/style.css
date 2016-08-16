@@ -1,0 +1,60 @@
+body {
+    background-color: #000;
+}
+body h1, h3, p, a {
+    font-family: courier;
+}
+main {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #444;
+}
+.article {
+    max-width: 80%;
+    margin: 5px auto;
+    border: 2px solid #222;
+}
+.article img {
+    margin: 15px auto;
+    max-width: 100%;
+    max-height: auto;
+    overflow: hidden;
+}
+.article h3 {
+    width: 100%;
+    background-color: #991111;
+    font-size: 180%
+}
+.article a {
+    text-decoration: none;
+    display: block;
+    margin: 5px auto;
+    text-align: center;
+}
+#header {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 5px;
+    background-color: #aa1111;
+    text-align: center;
+}
+#header img {
+    max-width: 100px;
+    max-height: 100px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+#header h1 {
+    font-size: 300%;
+}
+#header p {
+    font-size: 115%;
+}
+#footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #aa1111;
+    text-align: center;
+    font-size: 65%
+}
