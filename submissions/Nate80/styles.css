@@ -1,0 +1,51 @@
+body {
+    width: 100%;
+    max-width: 1024px;
+    margin: auto;
+    background-color: #975
+}
+
+header,
+main,
+footer {
+    background-color: #F5F5DC;
+    font-family: Arial;
+}
+h1,
+h2 {
+    text-align: center;
+    font-family: papyrus;
+    color: red;
+
+}
+nav ul {
+	text-align: center;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 1em;
+	font-size: 1em;
+    font-family: papyrus;
+    color: red;
+}
+
+img {
+    display: block;
+    width: 25%;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+p {
+    font-family: Lucida Handwriting;
+    padding: 2px 2px 2px 2px;
+}
+
+.sparrow {
+    font-weight: bold;
+}
+#Avery {
+    color: blue;
+}
