@@ -1,0 +1,19 @@
+/*css sheet for html me something */
+#Title {font-family: Cursive; margin-top: 1em;
+  padding-top: 1em; text-align: center; font-size: xx-large;}
+
+h4 {text-align: center}
+
+
+body {margin: 0 auto;
+  max-width: 50em;  line-height: 1.5;
+  padding: 4em 1em;
+}
+
+
+p {font-family: Arial}
+
+a {color:blue; text-decoration: underline; }
+img {height: 16em; width: 16em}
+
+.choose {text-align: center}
