@@ -1,0 +1,137 @@
+ that /* Make HTML5 layout elements block elements for older browsers */
+header, nav, aside, article, footer, section {
+display: block;
+}
+
+nav a{
+	background-color: #0E0783;
+	text-align: center;
+	display: inline-block;
+	width: 15%;
+	list-style-type: none;
+	color: white;
+	font-family: Waltograph, sans-serif;
+	font-size: 2em;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-decoration:none;
+	border-radius:15px;
+	margin-left: 25px;
+	padding-left: 25px;
+	}
+
+nav a:hover{
+	background-color: #b21626;
+	transform:scale(1.25);
+}
+
+img {
+  max-width: 100%;
+}
+#introduction {
+	background-color: #0E0783;
+	border: medium solid #D7CC06;
+	/*height: 660px;*/
+	padding-left: 5px;
+	}
+
+#introduction p{
+	font-size: 1.5em;
+}
+#introduction img{
+	padding-left: 300px;
+  padding-bottom: 10px;
+	}
+
+#opening {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 1em;
+	color: white;
+}
+
+#atseas, #day-in-florida, #boarding, #bahamas, #castaway {
+	border: medium solid #0e0783;
+	margin: 5px;
+}
+
+h2 {
+font-size: 3em;
+	font-family: Waltograph;
+	color: #b21626;
+	padding-left: 10px;
+}
+
+.left {
+	float: left;
+	margin-right: 10px;
+	padding-left: 10px;
+}
+
+.right {
+	float: right;
+	margin-left: 50px;
+	padding-right: 10px;
+}
+
+
+.body p {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 1.5em;
+	padding-left: 10px;
+	padding-right:10px;
+}
+
+input {
+	background-color: #b21626;
+	border-radius: 25px;
+	color:white;
+}
+
+#day-in-florida{
+	/*height: 550px;*/
+	}
+
+#first-day img {
+	float: right;
+	padding: 5px;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: 100px;
+	margin-left: 5px;
+}
+
+#boarding2 {
+	/*margin-bottom: 100px;
+	margin-top: 0px;*/
+	/*height: 650px;*/
+}
+
+#boarding p {
+
+}
+
+#castaway article .bottom img {
+	margin: 10px;
+}
+#castaway article .left img {
+	margin: 5px;
+}
+#bahamas article .right img {
+	margin: 5px;
+}
+
+footer{
+	background-color: #0E0783;
+	border: medium solid #D7CC06;
+	}
+
+footer p{
+	height: 45px;
+	line-height: 45px;
+	text-align:center;
+	color:white;
+}
+
+footer a{
+	color:white;
+}
