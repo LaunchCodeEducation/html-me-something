@@ -1,0 +1,254 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+
+	site specific
+*/
+
+body {
+	
+}
+
+#container,
+header,
+footer {
+	width: 80%;
+	min-width: 600px;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+header {
+	position: fixed;
+	z-index: 1;
+	padding-top: 10px;
+	text-align: center;
+	background-color: #acacaf;
+	height: 80px;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.headerImg {
+	height: 25px;
+}
+
+#container {
+	margin-top: 90px;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 2em;	
+	margin: 0;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 1.5em;
+	margin: 0;
+}
+
+h3 {
+	font-weight: bold;
+	font-size: 1.25em;
+	margin: 0;
+}
+
+nav {
+	min-width: 516px;
+	margin: 0 auto;
+}
+
+nav ul {
+	margin-top: 0;
+	display: block;
+	height: 20px;
+	line-height: 20px;
+}
+
+.navigation li {
+	width: 80px;
+	display: inline-block;
+	
+}
+
+#overview {
+	position: relative;
+	padding-top: 20px;
+	text-align: center;
+	overflow: auto;
+}
+
+button {
+	box-sizing: border-box;
+	border-style: none;
+	background-color: #acacaf;
+}
+
+button:hover {
+	background-color: white;
+}
+
+#overview .result {
+	height: 200px;
+}
+
+.result {
+	height: 150px;
+	box-sizing: border-box;
+	margin: auto;
+	text-align: center;
+	display: inline-block;
+	padding: 20px;
+	background-color: #e6e2e2;
+	width: 50%;
+	float: left;
+}
+
+.result h3 {
+	padding-bottom: 20px;
+}
+
+.result img {
+	max-height: 80%;
+	float: left;
+}
+
+#quarterBreaks {
+	clear: both;
+	display: block;
+	position: static;
+}
+
+.quarter {
+	overflow: auto;
+	margin-top: 40px;
+	text-align: center;
+	clear: both;
+}
+
+.quarter h2 {
+	margin-bottom: 10px;
+}
+
+.result p {
+	padding-bottom: 10px;
+}
+
+.raceName {
+	font-weight: bold;
+	font-size: 1.05em;
+}
+
+.raceDate {
+	
+}
+
+.raceFinishTime {
+	
+}
+
+.startHidden {
+	display: none;
+}
+
+#imageContainer {
+	position: fixed;
+	top: 25%;
+	left: calc(50% - 300px);	
+}
+
+.close {
+	font-weight: bold;
+	font-size: 1.5em;
+	width: 600px;
+	background-color: gray;
+	color: red;
+}
+
+#imageContainer:hover,
+.preview {
+	cursor: pointer;
+}
+
+#image img {
+	box-sizing: border-box;
+	border: 1px solid black;
+	clear: both;
+	width: 600px;
+}
+
+#fourthQuarter {
+	margin-bottom: 20px;
+}
+
+footer {
+	clear: both;
+	height: 20px;
+	line-height: 20px;
+	bottom: 0;
+	position: fixed;
+	background-color: gray;
+	left: 50%;
+	transform: translateX(-50%);
+	background-color: #acacaf;
+}
+
+.author {
+	display: inline-block;
+	float: left;
+}
+
+.copyright {
+	display: inline-block;
+	float: right;
+}
