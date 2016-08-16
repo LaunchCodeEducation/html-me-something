@@ -1,0 +1,37 @@
+body {
+	width: 100%;
+	margin: 0 auto;
+	background-color: #eee;
+	font-size: 14px;
+}
+
+h1 {
+	font-size: 36px;
+}
+
+h2 {
+	font-size: 24px;
+    text-align: center;
+}
+
+header {
+	text-align: center;
+}
+
+a:hover {
+    background-color: #000;
+    color: #eee;
+}
+
+p {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+footer {
+	text-align: center;
+}
+
+img {
+	width: 500px;
+}
