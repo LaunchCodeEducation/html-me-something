@@ -1,0 +1,86 @@
+
+header {
+    width:900;
+    text-align: center;
+    padding-left: 40px;
+}
+
+h1, h2, h3, h4, h5 {
+    padding: 10px 40px;
+    
+    
+}
+
+
+p {
+    color:black;
+    width:auto;
+    padding:10px 30px 10px 40px;
+}
+
+body{
+    background: #99d6ff;
+    width:900;
+    padding-left:50px;
+}
+
+img {
+    width:300;
+    border:6px #000066 solid;
+    margin:50;
+}
+
+#Haro {
+    display: block;
+    margin: auto;
+    border: 6px solid silver;
+}
+.Center {
+    display: block;
+    margin: auto;
+}
+
+header img {
+    display:block;
+    border:6px black solid;
+    margin:auto;
+    width: 500;
+}
+
+#katy {
+    padding:0px 50px;
+}
+
+article{
+    border:6px black solid;
+    display block;
+    margin auto;
+}
+
+
+main {
+    border:5px #000066 solid;
+    display: block;
+    margin:auto;
+}
+
+a:link {
+    text-decoration: none; 
+    color:#000066;
+}
+
+a:visited {
+    text-decoration: none;
+    color:#000066;
+}
+
+a:hover {
+    color: red;
+}
+
+.rotate90 {
+    transform: rotate(270deg);
+    
+   
+}
+
