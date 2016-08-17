@@ -1,0 +1,152 @@
+
+html{
+    background-color: #F4EEE0;
+
+
+}
+
+header{
+    text-align: center;
+    font-size: 25px;
+}
+div{
+    border:2px solid black;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.icon{
+    float:left;
+    height: 280px;
+    width: 280px;
+}
+
+.pl{
+    padding-left: 170px;
+    float:left;
+    font-size: 20px;
+    text-shadow: 1px 1px #706767;
+    position: relative;
+    top: -20px;
+}
+p{
+    clear:both;
+    padding-top: 10px;
+    padding-bottom:10px;
+}
+.wtext{
+    color: white;
+}
+#whitetext{
+    color:white;
+    text-shadow: 1px 1px black;
+}
+.tbox{
+    border: 2px solid #0D0A0A;
+    border-radius: 10px;
+
+    padding-left: 10px;
+    padding-right:10px;
+    background: rgba(112, 103, 103, 0.9);
+    font-family: sans-serif;
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+    color: #E5D3AA;
+
+}
+#a{
+    position: relative;
+    top:-10px;
+}
+#b{
+    position: relative;
+    top:-35px;
+}
+#c{
+    position: relative;
+    top:-120px;
+
+}
+#padja{
+    position: relative;
+    top:-35px;
+}
+#padjb{
+    position: relative;
+    top: -40px;
+}
+#padjc{
+    position: relative;
+    top:-285px;
+}
+.price{
+    color:black;
+    font-weight: bold;
+
+}
+.blink{
+    color: black;
+}
+.blink:visited{
+    color: black;
+}
+.blink:hover{
+    color: blue;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+a:visited{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color:blue;
+}
+#ham{
+    float:left;
+    padding-left: 170px;
+    position: relative;
+    top: -80px;
+    font-size: 17px;
+    text-shadow: 1px 3px black;
+    color: white;
+    font-weight: bold;
+}
+#ham2{
+    float:left;
+    padding-left: 170px;
+    position: relative;
+    top: -80px;
+    font-size: 17px;
+    text-shadow: 1px 3px black;
+    color: white;
+    font-weight:bold;
+}
+.disk{
+    position:relative;
+    top: 20px;
+    font-size: 17px;
+    font-weight: bold;
+}
+#bg1{
+    background-image: url("http://i.imgur.com/CkTgsKG.jpg");
+    background-position: 0% 5%;
+}
+#bg2{
+    background-image: url("http://www.theblueindian.com/wp-content/uploads/2013/12/GxN75U4y88Tj_gNZpe8UkxzLS4nwaAmeFwcAYEyKItMJcgSVXy6nza6qfo3Bwbo0I8eR3xPoJiZ6XEJ4SjHMBQ.jpg");
+    background-position: 100% 30%;
+    height:625px;
+}
+#bg3{
+    background-image: url("http://image2.redbull.com/rbcom/010/2015-06-15/1331729423682_2/0010/1/1500/1000/2/twenty-one-pilots.jpg");
+    background-position: 50% 25%;
+}
+#bg4{
+    background-image: url("http://www.vogue.com/wp-content/uploads/2016/06/08/00-holding-hamilton-set-designer.jpg");
+    background-position: 50% 85%;
+    height: 875px;
+
+}
