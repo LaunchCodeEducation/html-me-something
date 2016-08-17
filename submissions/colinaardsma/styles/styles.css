@@ -1,0 +1,59 @@
+body {
+    max-width: 1024px;
+    margin: auto;
+    background: url("../images/desk_background.jpg") no-repeat fixed top left/cover;
+}
+header {
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    background: url("../images/desk_background.jpg") no-repeat fixed top left/cover;
+    width: 100%;
+    position: fixed;
+}
+header, footer {
+    margin: 0;
+    padding-left: 2em;
+    padding-right: 2em;
+    /*background-color: white;*/
+}
+h1.name {
+    margin-bottom: 0;
+    font-family: Helvetica, Arial;
+    /*text-align: right;*/
+    font-size: 4em;
+}
+a.menu {
+    text-decoration: none;
+}
+li.menu {
+    display: inline-block;
+    margin-right: 2em;
+}
+main {
+    padding-top: 12em;
+    overflow-y: hidden;
+}
+#job_descr {
+    margin-top: 0;
+}
+article {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+article.job_descr {
+    padding-top: 0.5em;
+}
+td.expertise {
+    padding-right: 2em;
+}
+ul.job_general {
+    list-style-type: none;
+    padding-left: 0.5em;
+}
+li.job_title {
+    font-weight: bold;
+}
+footer {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
