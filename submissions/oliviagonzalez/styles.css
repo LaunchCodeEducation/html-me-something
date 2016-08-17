@@ -1,0 +1,54 @@
+html {
+  overflow-y: auto;
+  background: #faf3e6;
+}
+
+header {
+    color: #3f3d3a;
+    text-transform: uppercase;
+    font-size: 2.25rem;
+    font-weight: 400;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em
+}
+
+body {
+  font: 112.5%/1.3 "ltc-bodoni-175",serif;
+  color: #3f3d3a;
+  overflow: hidden;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #3f3d3a;
+  text-transform: uppercase;
+  margin: 0.5em;
+}
+
+div {
+    margin: 1.5em;
+}
+figure {
+	margin: 1em;
+	padding: 0;
+}
+
+img {
+	width: 50%;
+	max-width: 100%;
+}
+
+figcaption {
+	font-style: italic;
+}
+
+footer {
+	padding: 3em;
+}
+
+.center{
+    text-align: center;
+}
+
+#darkblue{
+    color: #2a86a5
+}
