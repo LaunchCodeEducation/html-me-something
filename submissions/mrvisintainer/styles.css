@@ -1,0 +1,31 @@
+html, header, main, footer {
+  background-color: #cce6ff;
+  padding-left: 10px;
+  padding-right: 10px;
+  max-width:1024;
+}
+
+header, body {
+  margin: 0;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 3.0em;
+  padding-top: 20px;
+}
+
+img {
+  padding-left: 5%;
+}
+
+p.days {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#imgfoot {
+  padding-left: 60px;
+  font-size: .85em;
+  font-style: italic;
+}
