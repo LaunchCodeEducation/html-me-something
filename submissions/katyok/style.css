@@ -1,0 +1,43 @@
+
+body{
+    margin: 2%;
+    font-size: 1.2em;
+    background-color: #1FBED6;
+}
+.quote{
+    font-size: 2em;
+    background-color: #CCFFFF;
+    margin: -1% 3%;
+    border-radius: .5em;
+    padding: .2% .5%;
+}
+#caption{
+    float:right;
+    margin:0;
+    padding: .5em;
+    background-color: white;
+    width: 300px;
+    font-size: .8em;
+}
+sup{
+    vertical-align: baseline;
+position: relative;
+top: -0.4em;
+}
+a{text-decoration: none;
+    color: white;
+}
+a:visited{
+    color:purple;
+}
+main, header{
+    text-align: center;
+    width: 70%;
+}
+main{
+        margin: 1%;
+}
+footer{
+    margin: 2% 0 0 1%;
+    color: navy;
+}
