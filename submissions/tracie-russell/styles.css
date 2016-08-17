@@ -1,0 +1,135 @@
+body {
+  background: url(images/bedge_grunge.png) repeat 0 0;
+}
+
+main article section div ul {
+  list-style-type: none;
+  width: 700px;
+}
+
+main article section div h3 {
+  font: bold 20px/1.5 Helvetica, Vernada, sans-serif;
+}
+
+div li img {
+  float: left;
+  margin: 0 15px 0 0;
+}
+
+main article section div li p {
+  font: 200 12px/1.5 Georgia, Times New Roman, serif;
+}
+
+main article section div li {
+  padding: 50px;
+  overflow: auto;
+}
+
+main article section div li:hover {
+  background: #eee;
+  cursor: pointer;
+}
+
+main article section img {
+  width: 200px;
+  height: 200px;
+}
+
+body main article section div {
+  width: 700px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+body div {
+  width: 700px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+header h1 {
+  font-size: 100px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+div nav {
+  width: 700px;
+  margin-right: auto;
+  margin-left: auto;
+  margin: 50px;
+  padding: 20px;
+}
+
+#top_list {
+  overflow: auto;
+  list-style-type: none;
+}
+
+div nav ul li {
+  height: 30px;
+  float: left;
+  margin-right: 0px;
+  border-right: 1px solid #aaa;
+  padding: 0 20px;
+}
+
+div nav ul li:last-child {
+  border-right: none;
+}
+
+div nav ul li a {
+  text-decoration: none;
+  color: #7e7e7e;
+  font: 25px/1 Helvetica, Verdana, sans-serif;
+  text-transform: uppercase;
+
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+div nav ul li a:hover {
+  color: #d45600;
+}
+
+/*nav ul li {
+  display: inline-block;
+  padding: 5;
+  margin-bottom: 50px;
+  font-size: 50px;
+  text-align: center;
+}
+
+nav ul {
+  text-align: center;
+}*/
+
+div h2 {
+  font: bold 30px/1.5 Helvetica, Vernada, sans-serif;
+}
+
+.intro {
+  font: bold 15px/1.5 Helvetica, Vernada, san-serif;
+  padding: 1em;
+}
+
+.verticalunrotated {
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+.rotate90 {
+    -webkit-transform: translateY(-100%) rotate(90deg);
+    -moz-transform: translateY(-100%) rotate(90deg);
+    -o-transform: translateY(-100%) rotate(90deg);
+    -ms-transform: translateY(-100%) rotate(90deg);
+    transform: translateY(-100%) rotate(90deg);
+    -webkit-transform-origin: left bottom;
+    -moz-transform-origin: left bottom;
+    -o-transform-origin: left bottom;
+    -ms-transform-oritin: left bottom;
+    transform-origin: left bottom;
+}
