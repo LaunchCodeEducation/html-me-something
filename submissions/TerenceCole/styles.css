@@ -1,0 +1,61 @@
+body {
+	width: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
+	background-color: #33bbff;
+	font-size: 70%;
+}
+
+header, main, footer, nav {
+	background-color: #0099e6;
+	font-size: 1.5em;
+}
+
+header {
+	padding: 1em;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+h3 {
+	margin: 0.5;
+    text-align: center;
+}
+
+img {
+	width: 100%;
+	max-width: 100%;
+}
+
+
+article {
+	margin: 1.5em 0;
+}
+
+article:first-child {
+	margin-top: 0;
+}
+
+article:last-child {
+	margin-bottom: 0;
+}
+
+nav ul {
+	text-align: center;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 1em;
+	font-size: 0.75em;
+}
+
+p {
+	padding: 1em;
+}
+
+footer {
+	text-align: center;
+	padding: 2em;
+}
