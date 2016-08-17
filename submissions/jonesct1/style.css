@@ -1,0 +1,38 @@
+body {
+    font-family:serif;
+    font-size: 1em;
+    font-weight: lighter;
+    background-color:#fffff1;
+    text-align:justify;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h2, h1 {
+    font-family:fantasy;
+    font-size: 2em;
+    font-variant: small-caps;
+    font-weight: lighter;
+    background-color: #ffffff;
+    box-shadow: rgba(0,0,0,0.2) 10px 10px;
+    text-align: center;
+    margin-top: 5%;
+}
+
+p {
+    font-size: 1em;
+    background-color: #ffffff;
+    box-shadow: rgba(0,0,0,0.2) 10px 10px;
+}
+img {
+    box-shadow: rgba(0,0,0,0.2) 10px 10px;
+    position: relative;
+}
+.img-wrapper{
+    text-align:center;
+}
+aside {
+    font-family:sans-serif;
+    font-style: italic;
+    font-size: 0.9em;
+}
