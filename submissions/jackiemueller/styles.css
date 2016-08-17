@@ -1,0 +1,153 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+body {
+	width: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
+	background-color: #e6e6e6;
+	font-size: 75%;
+}
+.intro {
+    font-weight: bold;
+	font-family: fantasy;
+	color: blue;
+}
+#category {
+    font-family: arial;
+}
+#italicize {
+	font-style: italic;
+}
+header,
+main,
+footer {
+	background-color: #e6ccff;
+	font-size: 1.6em;
+}
+header {
+	padding: 2em 0;
+}
+header h1 {
+	text-align: center;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	font-family: verdana;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h2 {
+	padding: 0.625em 0 0.625em 0.625em;
+	font-size: 2.5em;
+	text-align:center;
+}
+
+section {
+	margin: 1.875em 0;
+}
+
+section:first-child {
+	margin-top: 0;
+}
+
+section:last-child {
+	margin-bottom: 0;
+}
+
+ul {
+	text-align: center;
+	padding: 0;
+}
+
+ul li {
+	display: inline-block;
+	margin-right: 1em;
+	font-size: 1.75em;
+}
+
+p {
+	padding: 1.25em;
+	font-family: verdana;
+}
+
+figure {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+figcaption {
+	font-style: italic;
+}
+
+footer {
+	text-align: left;
+	padding: 3em;
+}
+
+footer p {
+	display: inline-block;
+}
+
+img {
+	width: 100%;
+	max-width: 100%;
+}
+
+@media screen and (max-width: 680px) {
+	nav ul li {
+		margin: 1em 0;
+		display: block;
+		font-size: 1em;
+	}
+	body {
+		font-size: 50%;
+	}
+}
