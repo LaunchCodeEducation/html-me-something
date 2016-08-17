@@ -1,0 +1,66 @@
+div {
+    background-color: #3DC2EE;
+    border-radius: 1em;
+}
+h1 {
+    text-align: center;
+    font-size: 6em;
+    font-family: fantasy, sans-serif, monospace;
+    padding: 0
+    margin: 0;
+    color: yellow;
+}
+body {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    background-color: #3DC2EE;
+    font-size: 60%
+}
+header, main, footer {
+    background-color: aqua;
+    padding-left:5%;
+    padding-right:5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+nav ul {
+	text-align: center;
+	padding: 0;
+}
+nav ul li {
+	display: inline-block;
+	margin-right: 1em;
+	font-size: 2em;
+
+}
+nav ul li a {
+    text-decoration: none;
+    color: yellow;
+}
+p {
+    font-size: 2em;
+    font-family: sans-serif, monospace;
+    text-align: center;
+}
+img{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+
+}
+figure{
+    margin: 0;
+    padding: 0;
+}
+#photos {
+    line-height: 0;
+    column-count: 2;
+    column-gap: 0px;
+}
+#photos img{
+    width: 100% ;
+    height: auto ;
+    max-height: 50em;
+}
