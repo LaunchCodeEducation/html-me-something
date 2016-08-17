@@ -1,0 +1,49 @@
+img {
+	width: 300px;
+	max-width: auto;
+}
+body {
+	background-color: #b7d1c4;
+}
+h1 {
+text-align: center;
+text-family: Georgia;
+padding: 10px;
+text-color: #0047ab;
+}
+nav ul {
+text-align: center;
+text-decoration: none;
+text-color: black;
+}
+nav ul li {
+	text-align: center;
+	display: inline-block;
+	margin-right: 1em;
+	font-size: 0.75em;
+}
+p {
+	text-align: center;
+text-family: Georgia;
+padding: 1.25 em;
+}
+h1 {
+	text-align: center;
+}
+h2 {
+	text-align: center;
+text-family: Georgia;
+}
+h3 {
+	text-align: center;
+	text-family: Verdana;
+}
+.education {
+	text-weight: bold;
+}
+.job {
+	font-family: cursive;
+}
+#resume{
+font-family: fantasy;
+}
