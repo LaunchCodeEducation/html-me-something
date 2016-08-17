@@ -1,0 +1,52 @@
+body{
+    background-size: 100%;
+}
+main {
+    background-color: #87CEEB;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+}
+.wikilinks {
+    font-size: 25px;
+    text-align: center;
+}
+a {
+    color: #0000CD;
+}
+a:hover {
+    color: red;
+}
+a:visited {
+    color: green;
+}
+h1 {
+    font-size: 90px;
+    font-family: Courier;
+    text-align: center;
+    padding-top: 5%;
+    background-color: #F7E437;
+}
+h2 {
+    font-size: 50px;
+}
+p {
+    font-size: 22px;
+    font-family: sans-serif;
+    text-align: left;
+}
+footer {
+    font-size: 18px;
+    text-align: center;
+}
+article {
+    font-size: 30px;
+}
+img {
+    height: 200px;
+}
+#local img {
+    height: 250px;
+}
