@@ -1,0 +1,57 @@
+#schoolimg{
+	width: 75%;
+	height: 75%;
+}
+
+.profilepic{
+	display: block;
+	margin: auto;
+}
+
+.link {
+	text-decoration: none;
+}
+
+.tableheader {
+	background-color: #cdc5b4;
+}
+
+header h2 {
+	margin: auto;
+	text-align: center;
+}
+
+header nav ul li a {
+	list-style-type: none;
+}
+
+nav{
+	top:10px;
+	left:50%;
+	text-align: center;
+}
+
+header nav ul li {
+	display: inline;
+	font-size: 20px;
+	border: 2px solid #000000;
+	font-family: Futura, Tahoma, sans-serif;
+	background-color: #cdc5b4;
+	padding: 5px;
+	border-radius: 15px 30px;
+	margin: auto
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+main article section h3 {
+	font-size: 20px;
+	color: blue;
+}
+
+.tablerow{
+	width: 300px;
+	vertical-align: center;
+	text-align: center;
+}
