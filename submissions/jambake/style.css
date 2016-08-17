@@ -1,0 +1,62 @@
+body{
+  background-color: grey;
+}
+h1{
+  text-align: center;
+  background-color: orange;
+}
+header figure{
+  text-align:center;
+}
+article figure{
+  text-align: center;
+}
+article p{
+  text-align:center;
+}
+ol{
+  margin-left:200px;
+  font-family:fantasy;
+}
+article p{
+  font-family:Verdana;
+}
+div{
+  background-color: orange;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+ol img{
+  width:150px;
+}
+li:nth-child(1){
+  margin-left:-50px;
+}
+li:nth-child(2){
+  margin-left:100px;
+}
+li:nth-child(3){
+  margin-left:250px;
+}
+li:nth-child(4){
+  margin-left:400px;
+}
+li:nth-child(5){
+  margin-left:550px;
+}
+.musician{
+  font-weight: bold;
+  font-variant-caps:all-small-caps;
+  font-size: 20px;
+}
+#spotify{
+  border-style: solid;
+  border-width: thick;
+  border-color:orange;
+  height:80px;
+  width:300px;
+}
+.imgsize{
+  height:250px;
+  padding-left: 24px;
+}
