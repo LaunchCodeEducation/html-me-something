@@ -1,0 +1,62 @@
+body {
+	width: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
+	background-color: black;
+}
+
+h1 {
+    color: white;
+    font-family: Helvetica;
+}
+h2 {
+	color: white;
+	font-family: Helvetica;
+}
+
+#footer {
+	color: white;
+	font-family: Helvetica;
+	padding-top: 50px;
+	border-top: 1px solid white;
+}
+p {
+	color: white;
+	font-family: Helvetica;
+}
+nav ul {
+	margin: 5px;
+	text-align: center;
+	padding: 0 px 0px 5px 30px;
+	padding-bottom: 40px;
+
+}
+nav li {
+	display: inline;
+	margin-right: 40px;
+}
+li a {
+	color: orange;
+	line-height: 4.4em;
+}
+.resume_heading {
+	padding-top: 20px;
+	color: white;
+	font-family: Helvetica;
+	text-transform: uppercase;
+}
+ul li {
+	color: white;
+	font-family: Helvetica;
+}
+p.company {
+	padding-top: 20px;
+	color: white;
+	font-family: Helvetica;
+	font-style: italic;
+}
+p.title {
+	color: white;
+	font-family: Helvetica;
+	font-weight: bolder;
+}
