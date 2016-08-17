@@ -1,0 +1,25 @@
+footer{background-color: navy;
+    color: white;
+    text-align: center;
+}
+body {margin: 150px;
+      border-color: blue;
+      border-width: thick;
+        }
+
+.bigpic{height: 300px;
+        width: 300px;
+
+}
+#richie{float: left;
+        padding: 75px;
+
+}
+#mike {float: right;
+        padding: 75px;
+}
+#batter {display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+h1 {text-align: center;}
