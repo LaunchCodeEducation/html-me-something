@@ -1,0 +1,132 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+	background-color: #e0ebeb;
+}
+
+nav ul {
+	text-align: center;
+	padding: 0;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+header{
+	/*picture taken from abcnews.com*/
+	background-image: url(ht_dji_feats_bardabunga_video_eruption_2_jc_141002_16x9_992.jpg);
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+	padding-bottom: 10em;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 3em;
+	font-size: 1.25em;
+}
+
+nav ul li a {
+	color:white;
+}
+
+header h1 {
+	font-size: 50px;
+	text-align: center;
+	font-weight: bolder;
+	color: white;
+}
+
+.newVolcano{
+	text-align: center;
+	font-size: 30px;
+	padding: 10px;
+	font-weight: bold;
+}
+
+#intro{
+	text-align: center;
+	padding: 30px;
+	padding-bottom: 50px;
+	font-size: 27px;
+	text-decoration-line: underline red;
+}
+
+figure {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+figcaption {
+	font-style: italic;
+}
+
+a:hover{
+	text-decoration:none;
+}
+
+.kid{
+    font-family: cursive;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+}
+
+section p{
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+section{
+    padding: 2em;
+}
