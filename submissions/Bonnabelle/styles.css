@@ -1,0 +1,64 @@
+body{
+    background-image: url(http://1.bp.blogspot.com/-fSCeJH5zHhw/UmrcX8ZCMKI/AAAAAAAAAF4/anuhadm6IiU/s1600/Grey+Chevron.png);
+}
+
+#indexbod{
+    background-color:#999999;
+}
+
+#favc{
+    font-size: 25px;
+    width: 150px;
+    height: auto;
+    border: 3px solid gray;
+    background-color: gray;
+}
+.button{
+  padding: 55px 105px;
+  font-size: 48px;
+  text-align: center;
+  color: black;
+  outline: none;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: white}
+
+.button:active {
+  background-color: #f2f2f2;
+  box-shadow: 0 5px #666;
+}
+
+}
+.hidden:link{
+    opacity: 0.1;
+    text-decoration: none;
+    color: white;
+}
+
+.hidden:visited{
+    text-decoration: none;
+    opacity: 0.1;
+}
+
+article{
+    margin: auto;
+    width: 300px;
+    height: auto;
+    border: 20px solid gray;
+    padding: 150px 300px;
+    background-color: white;
+    background-size: 150px 100px;
+    border-radius:15px;
+
+}
+
+#intro{
+    margin: auto;
+    width: 950px;
+    height: auto;
+    border: 3px solid black;
+    background-color: white;
+}
