@@ -1,0 +1,39 @@
+a{
+    color:blue;
+    text-decoration:none;
+}
+    a:hover, a:focus{
+        color:#530ee8;
+        text-decoration:underline;
+    }
+    a:visited{
+        color:purple;
+    }
+p {
+    font-family:sans-serif;
+    margin:25px 500px 10px 25px;
+}
+header{
+    font-family:"Comic Sans",Helvetica, sans-serif;
+    padding:10px;
+    margin-left:25px;
+    background-color:yellow;
+    color:white;
+    text-shadow:
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;
+}
+#main{
+    padding:15px;
+    margin-left:100px;
+    background-color:red;
+}
+.bucket {
+    padding:25px;
+}
+figcaption{
+    font-family:sans-serif;
+    text-align:justify;
+}
