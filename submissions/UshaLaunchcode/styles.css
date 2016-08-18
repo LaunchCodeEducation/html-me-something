@@ -1,0 +1,18 @@
+p {
+    margin: 20px 20px 20px 30px;
+}
+footer{
+background-color: #ddd;
+	font-size: 1.6em;
+    padding: 20px 10px 20px 40px;
+}
+h3{
+background-color: yellow;
+}
+p.center {
+    text-align: center;
+    color: red;
+}
+#lastname {
+    background-color: green;
+}
