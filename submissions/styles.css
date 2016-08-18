@@ -1,0 +1,40 @@
+body {
+	width: 100%;
+	margin: 0 auto;
+	font-size: 62.5%;
+    color: #333333;
+}
+
+header,
+main,
+footer {
+	font-size: 1.6em;
+    text-align: center;
+}
+
+header {
+    background-color: rgb(52, 74, 95);
+    color: #ffffff;
+    padding: 2.5em 0;
+}
+
+main ul li {
+    list-style: none;
+    line-height: 1.6em;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: inherit;
+}
+
+main a {
+    color: #344a5f;
+}
+
+a:hover {
+    color: #428bca;
+}
