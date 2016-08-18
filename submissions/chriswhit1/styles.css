@@ -1,0 +1,28 @@
+#name{
+    font-family: monospace;
+}
+body{
+    background-color: lightblue;
+    text-align: center;
+
+}
+h1{
+    text-align: center;
+    color: white;
+}
+q{
+    font-family: fantasy;
+}
+h2{
+    color: white;
+}
+p{
+    text-align:left;
+    font-family: serif;;
+    margin-bottom: 50px;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+.foot{
+    font-style: oblique;
+}
