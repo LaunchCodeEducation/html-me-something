@@ -1,0 +1,29 @@
+#par1 {
+    background: red;
+}
+.blue_one {
+    background: blue;
+
+}
+
+
+h1 {
+    color: green;
+    font-family: Garamond;
+    font-size: 44px;
+
+}
+body{
+    background-color: yellow;
+}
+body{
+   width: auto;
+   margin: auto;
+   border: 10px solid blue;
+}
+.blue_one {
+    padding-top: 80px;
+    padding-right: 80px;
+    padding-bottom: 80px;
+    padding-left: 0px;
+}
