@@ -1,0 +1,25 @@
+body {
+	width: 100%;
+	max-width: 1024px;
+  margin: 0 auto;
+	font-family: monospace;
+}
+
+header, footer {
+  text-align: center;
+  background-color: #1ABC9C;
+
+
+}
+main {
+  background-color: #D1F2EB;
+}
+
+p {
+  	padding: 1.5em;
+  }
+
+	.important {
+		background-color: #1ABC9C
+		
+	}
