@@ -451,6 +451,7 @@ h5 {
     text-align: center;
     padding-top: 0px;
 }
+
 img {
 	display: block;
     margin-left: auto;
@@ -469,6 +470,6 @@ ul {
     font-size: 12px;
 }
 
-footer {
+.quiet {
     font-size: 10px;
 }
