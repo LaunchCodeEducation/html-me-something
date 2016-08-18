@@ -1,0 +1,56 @@
+*
+{
+  margin:auto;
+  text-align: center;
+  background-color: #3399ff;
+}
+
+title
+{
+  font-family:fantasy, sans-serif;
+  color:grey;
+}
+
+#firstname
+{
+  font-family:fantasy;, sans-serif;
+  font-size:50px;
+  color:black;
+}
+
+h2
+{
+  font-family:fantasy, sans-serif;
+  color:purple;
+}
+
+img.a
+{
+  padding: 25px;
+}
+
+article ul img
+{
+  padding: 25px;
+}
+
+span
+{
+    color:cyan;
+}
+
+article p
+{
+    font-family:Impact;
+}
+
+ul
+{
+  font-family:Impact;
+}
+
+footer p
+{
+  font-family:cursive;
+  text-align: left;
+}
