@@ -1,0 +1,42 @@
+header h1 {
+	font-family: "verdana";
+	text-align: center;
+	color: #004060;
+	background-color: #004060; color: #ffffff; padding: 4px 8px;
+}
+
+header {
+	background-color: #f5f5f5;
+}
+
+body {
+	background-color: #FAFAFA;
+}
+
+footer {
+	margin-left: 200px;
+}
+
+header p {
+	margin-left: 200px;
+	padding: 25px 25px;
+}
+
+h2 {
+	text-align: center;
+	color: #004060;
+}
+
+img {
+    float: left;
+	margin-right: 50px;
+}
+
+article {
+	margin-left:200px;
+	margin-right: 200px;
+}
+
+.clearfix {
+    overflow: auto;
+}
