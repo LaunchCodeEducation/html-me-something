@@ -35,11 +35,11 @@
 
 <div id="rightSide"></div>
 <script>
-	
+	var play = true;
 	var numberOfFaces = 5;
 	var theLeftSide = document.getElementById("leftSide");
 	var theRightSide = document.getElementById("rightSide");
-	
+	var theBody = document.getElementsByTagName ("body")[0];
 	
 function generateFaces() {
 //while (play) {
@@ -52,7 +52,16 @@ for (i = 0; i < numberOfFaces; i++) {
 	img.style.left = left_position + "px";
 	theLeftSide.appendChild(img);
 	}
-	
+	theLeftSide.lastChild.onclick = function nextLevel(event) {
+			event.stopPropagation();
+			numberOfFaces += 5;
+			while (theLeftSide.firstChild) 
+			theLeftSide.removeChild(theLeftSide.firstChild);
+			while (theRightSide.firstChild) 
+			theRightSide.removeChild(theRightSide.firstChild);
+			generateFaces();
+
+	}
 	
 		leftSideImages = theLeftSide.cloneNode(true);
 		leftSideImages.removeChild(leftSideImages.lastChild);
@@ -60,8 +69,19 @@ for (i = 0; i < numberOfFaces; i++) {
 	
 }
 	
-		
 
+	
+		theBody.onclick = function gameOver() {
+			//alert("Game Over!");
+			play = confirm("Game Over!  Would you like to play again?..")
+			if (play == true) {
+				location.reload();}
+			else {
+			theBody.onclick = null;
+			//theLeftSide.lastChild.onclick = null; }
+			theLeftSide.lastChild.onclick = null; }
+		
+}
 	
 </script>
 </body>
