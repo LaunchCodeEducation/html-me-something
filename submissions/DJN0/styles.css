@@ -13,6 +13,10 @@ body {
 	background-color: #FAFAFA;
 }
 
+footer {
+	margin-left: 200px;
+}
+
 header p {
 	margin-left: 200px;
 	padding: 25px 25px;
