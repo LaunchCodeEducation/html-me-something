@@ -11,10 +11,18 @@ header {
         font-size: 1.6em;
 }
 
+.intro {
+        background-color: #ccffb3;
+        color: black;
+}
+#italy{
+    color: #b30000;
+}
+
 main,
 footer {
         background-color: #4682B4;
-        font-size: 1.6em
+        font-size: 1.6em;
 }
 
 header {
@@ -62,6 +70,7 @@ nav ol li {
 }
 
 p {
+        background-color: #ccccff;
         padding: 1.25em;
 }
 
