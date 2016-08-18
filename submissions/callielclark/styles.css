@@ -1,0 +1,69 @@
+*
+{
+    font-family: helvetica;
+}
+
+#header
+{
+    height: 45px;
+    background-color: #CC9CFC;
+    font-size: 20px;
+    padding: 0px 20px 10px 20px;
+}
+
+#name
+{
+    float: left;
+}
+
+#email
+{
+    float: right;
+}
+
+img
+{
+    padding:10px;
+    background-color: #CC9CFC;
+}
+
+main
+{
+    text-align: center;
+}
+
+li
+{
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+/* CURRENTLY UNUSED
+    .left {
+	float: left;
+	background-color: #CC9CFC;
+    height: relative;
+}
+*/
+
+.right {
+	position: relative;
+	float: right;
+	background-color: #668099;
+    width: 100%;
+    padding-left: 5px;
+}
+
+#footer {
+	position: relative;
+	height: 50px;
+	background-color: #CC9CFC;
+	clear: both;
+	font-size: 14px;
+	text-align: center;
+}
+
+#footer p {
+	position: relative;
+	padding-top: 15px;
+}
