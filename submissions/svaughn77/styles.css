@@ -24,7 +24,7 @@ p {
     padding-left: 80px;
     /*background-color: #7FFFd4;
     background-color: #AFEEEE;*/
-    background-color: #f0f8ff;
+
     font-size: 150%;
     font-family: monospace;
 }
@@ -76,7 +76,13 @@ font-family: monospace;
 color: #696969;
 }
 
-
+.memories {
+/*background-color: yellow;*/
+background-color: #f0f8ff;
+}
+#posting {
+    color: red;
+}
 /*img src{
     align = "middle";
 }*/
