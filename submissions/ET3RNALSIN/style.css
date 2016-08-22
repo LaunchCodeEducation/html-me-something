@@ -1,0 +1,145 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+h1,h2,h3{
+	text-shadow: rgba(255, 0, 0, 0.5)2px 2px;
+	text-align: center;
+	font-family: serif;
+	font-size: 48px;
+	color: green;
+	padding: 4px;
+}
+
+body {
+	font: 75% georgia, sans-serif;
+	line-height: 1.88889;
+	color: #555753;
+	background: #fff url(http://fullhdpictures.com/wp-content/uploads/2016/08/Excellent-Dodge-Challenger-Wallpaper.jpg) no-repeat bottom right;
+	margin: 0;
+	padding: 0;
+	background-attachment: fixed;
+	 background-position: center;
+	 margin: 0px;
+	}
+
+.sidebarpic{
+	width:300px;
+	border:1px groove;
+	margin: 0px;
+	border-radius: 5px;
+	padding: 0px;
+	float: right;
+	width: 260px;
+}
+
+
+
+p{
+	text-align: center;
+	font-style: oblique;
+	font-size: 18px;
+	padding: 4px;
+	color: white;
+}
+
+
+
+
+
+.sideright{
+	background-color: #a6a6a6;
+	border:1px groove;
+	margin: 80px;
+	border-radius: 5px;
+	padding: 20px;
+	float: right;
+	width: 260px;
+
+}
+
+
+#navbar ul li{
+	display:inline;
+}
+
+#navbar ul{
+
+	font-size: 20px;
+	text-align: center;
+	padding: 5px;
+	list-style-type: none;
+	background-color: #a6a6a6;
+	height: 40px;
+	border-radius: 5px;
+}
+
+#navbar ul li a{
+	text-decoration: none;
+	font-family: Arial;
+	padding: 15px;
+	color: white;
+	background-color: #a6a6a6;
+}
+	.main{
+	margin-left:10px;
+	margin-right: 320px;
+	margin top:10px;
+	margin bottom:10px;
+	padding:20px;
+}
+
+	#announcement{
+		color:red;
+		font-size: 30px;
+	}
+img{
+	width: 300px;
+}
+
+ul{
+	text-align: center;
+	border: 1px groove;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
