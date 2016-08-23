@@ -1,0 +1,40 @@
+body {
+  width: 85%;
+  background-color: #ff4227;
+}
+
+header, footer {
+      background: red; /* For browsers that do not support gradients */
+      background: -webkit-linear-gradient(rgba(217, 15, 11, 1), rgba(24, 0, 7, 0)); /* For Safari 5.1 to 6.0 */
+      background: -o-linear-gradient(rgba(217, 15, 11, 1), rgba(24, 0, 7, 0)); /* For Opera 11.1 to 12.0 */
+      background: -moz-linear-gradient(rgba(217, 15, 11, 1), rgba(24, 0, 7, 0)); /* For Firefox 3.6 to 15 */
+      background: linear-gradient(rgba(217, 15, 11, 1), rgba(24, 0, 7, 0)); /* Standard syntax */
+      height: 100px;
+      font-family: fantasy;
+      font-size: 32px;
+      vertical-align: middle;
+  }
+
+table {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 100px;
+  margin-left: 100px;
+
+}
+
+p {
+  padding-top: 5px;
+  padding-right: 0px;
+  padding-bottom: 5px;
+  padding-left: 0px;
+  text-align: justify;
+}
+
+p.bacon1 {
+  font-size: 20px;
+}
+
+p.bacon2 {
+  font-size: 25px;
+}
