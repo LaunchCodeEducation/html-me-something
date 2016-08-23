@@ -21,3 +21,11 @@ figure figcaption {
 
     text-align: center;
 }
+
+p.fungame{
+  background-color: yellow;
+}
+
+#confess{
+  background-color: gray;
+}
