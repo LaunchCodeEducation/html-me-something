@@ -1,0 +1,118 @@
+body {
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    margin: auto;
+    width: 62%;
+    text-align: center;
+    padding: 10px 5px;
+    background-color: #000000;
+    opacity: 0.8;
+}
+
+header p {
+    color: #C4C4C4;
+    font-family: "Lucida Grande";
+    text-align: center;
+    font-size: 15px;
+
+}
+
+h1 {
+    color: #FFE73A;
+    font-family: "Lucida Grande";
+    text-align: center;
+    font-size: 48px;
+}
+
+h2 {
+    font-style: italic;
+    text-align: center;
+    font-family: "Lucida Grande";
+    font-size: 22px;
+}
+
+h3 {
+    color: #FFE73A;
+}
+
+a:link {
+    color: #53EDFF;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #B2206F;
+}
+
+a:hover {
+    color: #FFE73A;
+}
+
+a:active {
+    color: #AB9916;
+}
+
+.caption {
+    font-style: italic;
+    font-size: 14px;
+    text-align: center;
+    color: #C4C4C4;
+}
+
+.funfact {
+    font-size: 16px;
+}
+
+.funfact b {
+    font-size: 16px;
+    color: #CC1A7A;
+}
+
+.maininfo {
+    font-size: 16px;
+}
+
+article p img {
+    display: block;
+    margin: auto;
+    width: 50%;
+    max-width: 75%;
+    height: auto;
+}
+
+ul li {
+    font-size: 16px;
+}
+
+div.article {
+    text-align: justify;
+    margin: auto;
+    width: 70%;
+}
+
+div.articletext {
+    background-color: #000000;
+    opacity: 0.8;
+    margin: auto;
+    width: 70%;
+    color: #C4C4C4;
+    font-family: "Helvetica";
+    padding: 10px;
+}
+
+footer {
+    background-color: #000000;
+    opacity: 0.8;
+    margin: auto;
+    width: 80%;
+    color: #FFE73A;
+    text-align: center;
+}
+
+a.footerLink {
+    color: white;
+}
