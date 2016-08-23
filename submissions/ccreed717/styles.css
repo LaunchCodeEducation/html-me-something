@@ -465,6 +465,7 @@ a:visited {
 
 .append {
     margin: auto;
+    width: 100%;
     text-align: center;
     position: fixed;
     color: #2f5cb6;
