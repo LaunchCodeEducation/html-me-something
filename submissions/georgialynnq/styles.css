@@ -1,0 +1,37 @@
+strong {
+    color:green;
+    font-size: 50px;
+}
+
+p {
+    color:purple;
+    font-size: 20px;
+}
+
+img {
+	width: 60%;
+	max-width: 60%;
+    padding-left: 200px
+}
+
+header {
+    text-align: center;
+}
+
+article {
+    font-size: 20px;
+    text-align: center;
+}
+
+header {
+    font-size: 35px;
+    color: blue;
+    padding-bottom: 20px
+}
+body {
+	width: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
+	background-color: #999;
+	font-size: 100%;
+}
