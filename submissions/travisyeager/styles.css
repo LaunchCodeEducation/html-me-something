@@ -1,0 +1,43 @@
+body {
+	width: 100%;
+	margin: 0 auto;
+	background-color: #eee;
+	font-size: 14px;
+}
+
+p.yep {
+    font-size: 10px;
+}
+
+h1 {
+	font-size: 36px;
+}
+
+h2 {
+	font-size: 24px;
+    text-align: center;
+}
+
+header {
+	text-align: center;
+}
+
+a:hover {
+    background-color: #000;
+    color: #eee;
+}
+
+p {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#yep2 {
+	text-align: center;
+    font-size: 35px;
+
+}
+
+img {
+	width: 500px;
+}
