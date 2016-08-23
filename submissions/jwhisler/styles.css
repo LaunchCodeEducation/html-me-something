@@ -1,0 +1,28 @@
+body {
+	background-image:url(../jwhisler/images/stars.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding:0;
+	margin:0;
+}
+main {
+	width:75%;
+	margin:0 auto;
+	background-color:#b3b3b3;
+}
+img {
+	margin-left:25%;
+	margin-right:40%;
+}
+h1 {
+	text-align:center;
+}
+a {
+	font-size:40px;
+	margin-left:44.8%;
+	margin-right:40%;
+}
+p {
+	text-align:center;
+	padding:2%;
+}
