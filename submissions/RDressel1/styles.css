@@ -1,0 +1,29 @@
+body {
+    width: 100%;
+    max-width: 1024px;
+    background-color: #0066ff;
+    font-size: 100%;
+    font-family: verdana;
+    margin:auto;
+    text-align: center;
+}
+
+h2{
+    background-color: #66ff66;
+}
+
+
+img{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    max-width: 600px;
+    max-height: 400px;
+}
+
+#page_title {
+    font-size: 300%
+}
+
+.footer_stuff{
+    font-style: italic;
+}
