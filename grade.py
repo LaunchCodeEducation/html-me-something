@@ -6,6 +6,17 @@ from html.parser import HTMLParser
 from py_w3c.validators.html.validator import HTMLValidator
 
 
+class bcolors:
+    HEADER = '\033[95m'
+    OKBLUE = '\033[94m'
+    OKGREEN = '\033[92m'
+    WARNING = '\033[93m'
+    FAIL = '\033[91m'
+    ENDC = '\033[0m'
+    BOLD = '\033[1m'
+    UNDERLINE = '\033[4m'
+
+
 class Requirement():
 
     def __init__(self, unsatisfied_message):
@@ -13,7 +24,7 @@ class Requirement():
         self.satisfied_messages = []
 
     def add_success(self, msg):
-        self.satisfied_messages.append('✅  ' + msg)
+        self.satisfied_messages.append(msg)
 
     def is_satisfied(self):
         return len(self.satisfied_messages) > 0
@@ -22,16 +33,34 @@ class Requirement():
         satisfied_message = ''
         for msg in self.satisfied_messages:
             satisfied_message += (msg + '\n')
-        return satisfied_message
+        return self.success(satisfied_message)
 
     def get_unsatisfied_message(self):
-        return '❌  ' + self.unsatisfied_message
+        return self.error(self.unsatisfied_message)
 
     def get_report(self):
         if not self.is_satisfied():
             return self.get_unsatisfied_message()
         else:
             return self.get_satisfied_message()
+
+    def _format(self, msg, color):
+        return color + msg + bcolors.ENDC
+
+    def error(self, msg):
+        return self._format(msg, bcolors.FAIL)
+
+    def warn(self, msg):
+        return self._format(msg, bcolors.WARNING)
+
+    def header(self, msg):
+        return self._format(msg, bcolors.HEADER)
+
+    def success(self, msg):
+        return self._format(msg, bcolors.OKBLUE)
+
+    def bold(self, msg):
+        return self._format(msg, bcolors.BOLD)
 
 
 class SetRequirement(Requirement):
@@ -55,7 +84,7 @@ class SetRequirement(Requirement):
         if self.is_satisfied():
             return ''
 
-        message = self.unsatisfied_message + '\nNot Found: '
+        message = self.error(self.unsatisfied_message) + '\nNot Found: '
         unused_items = list(set(self.required_items) - set(self.used_items))
         message += ', '.join(unused_items)
         return message
@@ -73,7 +102,7 @@ class W3CValidityRequirement(Requirement):
         validator.validate_fragment(self.html)
         self.errors = validator.errors
         self.warnings = validator.warnings
-        self.is_valid = bool(len(self.errors))
+        self.is_valid = len(self.errors) == 0
         if self.is_valid:
             self.add_success('Valid HTML document found')
 
@@ -81,16 +110,16 @@ class W3CValidityRequirement(Requirement):
         return self.is_valid
 
     def get_unsatisfied_message(self):
-        message = self.unsatisfied_message + '\n'
+        message = self.error(self.unsatisfied_message) + '\n'
 
         if len(self.errors):
-            message += '------ERRORS------\n'
+            message += self.error('------ERRORS------') + '\n'
 
         for error in self.errors:
             message += error['message'] + '\n'
 
         if len(self.warnings):
-            message += '-----WARNINGS-----\n'
+            message += self.warn('-----WARNINGS-----') + '\n'
 
         for warning in self.warnings:
             message += warning['messages'] + '\n'
@@ -105,12 +134,16 @@ class HTMLMeSomethingParser(HTMLParser):
 
     def __init__(self):
         super().__init__(convert_charrefs=False)
+        self.requirements = []
         self.tag_requirement = SetRequirement('Required HTML tags not found',
                                               self.required_tags)
+        self.requirements.append(self.tag_requirement)
         self.entity_requirement = Requirement('No valid HTML entities found')
+        self.requirements.append(self.entity_requirement)
 
     def feed(self, data):
-        self.w3c_validity_requirement = W3CValidityRequirement(url)
+        self.w3c_validity_requirement = W3CValidityRequirement(data)
+        self.requirements.append(self.w3c_validity_requirement)
         super().feed(data)
         self.report()
 
@@ -131,18 +164,20 @@ class HTMLMeSomethingParser(HTMLParser):
         self.tag_requirement.used_item(tag)
 
     def report(self):
-        report_str = """******* HTML Me Something Grade Report *******
-
-{validity_report}
-
-{tag_report}
-
-{entity_report}
-"""
-        print(report_str.format(
-            validity_report=self.w3c_validity_requirement.get_report(),
-            entity_report=self.entity_requirement.get_report(),
-            tag_report=self.tag_requirement.get_report()))
+        success_count = 0
+        fail_count = 0
+        report_str = (bcolors.HEADER +
+                      "****** HTML Me Something Grade Report ******" +
+                      bcolors.ENDC + "\n\n")
+        for requirement in self.requirements:
+            report_str += requirement.get_report() + "\n\n"
+            if requirement.is_satisfied():
+                success_count += 1
+            else:
+                fail_count += 1
+        report_str += bcolors.BOLD + "Passed: {0}\n".format(success_count)
+        report_str += "Failed: {0}\n".format(fail_count) + bcolors.ENDC
+        print(report_str)
 
 
 if __name__ == '__main__':
